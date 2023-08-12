@@ -1,0 +1,351 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    font-family: 'Bangers', cursive;
+    background-image: url("../images/pxfuel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+/*------------------ Navbar ----------------------*/
+ .logotitle{
+    font-size: 27px;
+    margin-left: 56px;
+    margin-top: 20px;
+    display: inline;
+    color: skyblue;
+    position: absolute;
+ }
+ 
+.navbar{
+    background-color: black;
+    margin: 0;
+    height: 150px;
+    
+}
+.gameroomlogo{
+    margin-top: 10px;
+    border-radius: 50%;
+    width:70px;
+    margin-left: 100px;
+}
+.search-container {
+  display: inline-block;
+    margin-top: -20px;
+    position: absolute;
+    display: inline;
+  }
+  
+  .search-input {
+    width: 300px;
+    margin-left: 770px;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+  
+  .user{
+    color: white;
+  }
+  .user-link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    margin-left: 1650px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+  }
+  .user-link1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: x-large;
+    position: absolute;
+    margin-left:1550px ;
+    text-decoration: none;
+    color: white;
+    
+  }
+  /*caracteristicas del icono de usuario*/
+  .fa-user{
+    color: fuchsia;
+    margin-top: 1px;
+    margin-left:1500px ;
+    position: absolute;
+  }
+  /*============ navbar =============*/
+
+
+
+
+ /*///////////////////HOME-PAGE INDEX////////////////*/
+ .home-title-container{
+  background-position-y:-350px;
+  height: 300px;
+  background-image: url("../images/title-background.jpg");
+  background-size: cover;
+ }
+ 
+ .home-title-container p{
+  display: inline-block;
+  padding-top: 20px;
+  margin-left: 680px;
+  font-size:40px;
+  font-family: 'Besley', serif;
+  color: cyan;
+  text-shadow: 5px 5px 5px black;
+
+}
+.home-title-container h1{
+  max-width: 600px;
+  display: inline-block;
+  margin-left: 650px;
+  font-size:60px;
+  font-family: 'Aldrich', sans-serif;
+  margin-top: 30px;
+  color: skyblue;
+  text-align: center;
+  text-shadow: 5px 5px 5px black
+  
+}
+.home-second-half-container{
+  position: relative;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 1500px;
+  background-image: url("../images/fondo\ violet\ wave.jpg")
+  
+}
+.home-second-half-container p{
+  color:rgb(158, 15, 158);
+  display: inline-block;
+  padding-top: 10px;
+  margin: 0;
+  margin-left: 750px;
+  font-size:40px;
+  font-family: 'Antonio', sans-serif;
+  padding: 90px;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+}
+
+.home-second-half-container  button{
+  
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 150px;
+  margin-top: 50px;
+  cursor: pointer;
+  left: 500px;
+}
+.footer{
+  position: relative;
+   height: 100px;
+   background-color: black;
+}
+.form-container{
+    max-width: 600px;
+    margin-top: -220px;
+    margin-bottom: 70px;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    text-align: center;
+    height: 200px;
+    left: 100px;
+
+}
+.footer-content img{
+  position: relative;
+  display: inline-block;
+    margin: 20px;
+    width: 50px;
+    left: 800px;
+
+    
+}
+.footer-content{
+  text-align: center;
+  position: relative;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  padding-top: 4px;
+  text-shadow: 5px 5px 5px skyblue;
+}
+textarea {
+  resize: vertical;
+  height: 50px;
+  margin-left: 30px;
+  position: relative;
+  margin-right: 36px;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  margin-top: 5px;
+  right: -70px;
+  display: block;
+}
+
+
+/*IMAGENES Y CREACION DEL CARROUSELL,(CUANDO SE IMPLEMENTE CON BOOTSTRAP AHORA SOLO REFERENCIA)*/
+.main-carrousell-container{
+ height: 500px;
+ width: 700px;
+ position: absolute;
+ margin-left: 650px;
+ margin-top: 30px;
+ padding: 150px;
+}
+.second-space img{
+ position: absolute;
+  border-radius: 25%;
+  width: 340px;
+  height: 250px;
+  margin-left: 390px;
+  margin-top: 190px;
+  z-index:1;
+  }
+.assasin-creed-image{
+  width: 700px;
+  position: absolute;
+  border-radius: 20%;
+  align-items: center;
+  margin-top: 150px;
+  right: 290px;
+  opacity: 0.4;
+}
+.main-carrousell-container p {
+  padding: 200px;
+  font-size: 20px;
+  position: absolute;
+  top: 120px;
+  width: 200px;
+  height: 200px;
+  color:skyblue;
+  right: 550px;
+  text-shadow: 5px 5px 5px #000000;
+  margin-top: 2px;
+  left: -1000px;
+  
+
+}
+
+.main-carrousell-container h1{
+  font-size: 40px;
+  display: inline-block;
+  position: absolute;
+  font-family: 'Antonio', sans-serif;
+  color:rgb(158, 15, 158);
+  text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
+  margin-left: -560px;
+  margin-top: 300px;
+}
+/*-------------- imagenes para los links seleccion de juegos -------------*/
+
+.button-container{
+  display: inline-block;
+  text-align: center;
+  margin-left: 400px;
+  
+}
+.button-container a img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 70px;
+  
+}
+.button-container img{
+  box-shadow: 1px 0px 2px rgb(000000,000000,000000)
+}
+/*------------pagina god of war---------------*/
+
+.godofwargame{
+  position: relative;
+  background-image:url("../images/kratos\ wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.godofwargame iframe{
+  border-radius: 5%;
+  overflow: hidden;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.header-godofwar img{
+  margin-left: 600px;
+}
+.header-godofwar{
+  background-image: url("../images/fondo\ violet\ wave.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.godofwargame img{
+  position: absolute;
+  width: 450px;
+  border-radius: 30% 10%;
+  margin-left: 600px;
+  margin-top: 150px;
+}
+.godofwargame img:last-of-type{
+  position: absolute;
+  width: 450px;
+  border-radius: 30% 10%;
+  margin-left: 600px;
+  margin-top: 450px;
+}
+.purchase {
+  position: absolute;
+  top: 120px;
+  left: -520px;
+
+}
+.godofwargame p{
+  width: 200px;
+  position: absolute;
+  font-size: x-large;
+  margin-left: 400px;
+  margin-bottom: 150px;
+  display: inline-block;
+  margin-top: 550px;
+  left:900px ;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.godofwargame p:last-of-type{
+  width: 200px;
+  position: absolute;
+  font-size: x-large;
+  margin-left: 200px;
+  display: inline-block;
+  margin-top: 230px;
+  left: 1100px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
