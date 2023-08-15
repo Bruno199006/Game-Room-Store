@@ -121,7 +121,7 @@ text-align: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: url("/images/assasin\ creed\ oyssey.jpg");
+  background-image: url("../images/assasin\ creed\ oyssey.jpg");
   background-size: cover;
   width: 15rem;
   margin-left: 2rem;
