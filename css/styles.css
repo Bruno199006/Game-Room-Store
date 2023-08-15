@@ -11,79 +11,60 @@ body{
 }
 
 
-ul{
+/* ul{
     list-style: none;
-}
+} */
 
 
 
 /*------------------ Navbar ----------------------*/
- .logotitle{
-    font-size: 27px;
-    margin-left: 56px;
-    margin-top: 20px;
-    display: inline;
-    color: skyblue;
-    position: absolute;
+ .header-container{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color: #000000;
+  padding: 1rem;
+}
+ .shop-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  color: white;
+  
  }
- 
-.navbar{
-    background-color: black;
-    margin: 0;
-    height: 150px;
-    
-}
-.gameroomlogo{
-    margin-top: 10px;
-    border-radius: 50%;
-    width:70px;
-    margin-left: 100px;
-}
-.search-container {
-  display: inline-block;
-    margin-top: -20px;
-    position: absolute;
-    display: inline;
-  }
-  
-  .search-input {
-    width: 300px;
-    margin-left: 770px;
-    padding: 10px 40px 10px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+ .shop-icon img{
+  width: 4.5rem;
 
-  }
-  
-  .user{
-    color: white;
-  }
-  .user-link{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -10px;
-    margin-left: 1650px;
-    position: absolute;
-    text-decoration: none;
-    color: white;
-    font-size: x-large;
-  }
-  .user-link1{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -10px;
-    font-size: x-large;
-    position: absolute;
-    margin-left:1550px ;
-    text-decoration: none;
-    color: white;
-    
-  }
-  /*caracteristicas del icono de usuario*/
-  .fa-user{
-    color: fuchsia;
-    margin-top: 1px;
-    margin-left:1500px ;
-    position: absolute;
-  }
+ }
+.login-interface{
+  display: flex;
+  justify-content: flex-end;
+}
+.login-interface a {
+  text-decoration: none;
+}
+.user-links{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+.user-icon{
+  display: flex;
+  color: white;
+  align-self: center;
+  margin-right: 2rem;
+}
+.search-input{
+width: 18rem;
+height: 2rem;
+border-radius: 2rem;
+text-align: center;
+}
+
+
+
   /*============ navbar =============*/
 
 
@@ -91,99 +72,120 @@ ul{
 
  /*///////////////////HOME-PAGE INDEX////////////////*/
  .home-title-container{
-  background-position-y:-350px;
-  height: 300px;
-  background-image: url("../images/title-background.jpg");
-  background-size: cover;
- }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/title-background.jpg);
+  background-position: center;
+  padding: 5rem;
+  gap: 3rem;
+}
+ 
  
  .home-title-container p{
-  display: inline-block;
-  padding-top: 20px;
-  margin-left: 680px;
-  font-size:40px;
+  display: flex;
+  justify-content: center;
   font-family: 'Besley', serif;
   color: cyan;
   text-shadow: 5px 5px 5px black;
+  font-size: 3rem;
 
 }
 .home-title-container h1{
-  max-width: 600px;
-  display: inline-block;
-  margin-left: 650px;
-  font-size:60px;
-  font-family: 'Aldrich', sans-serif;
-  margin-top: 30px;
-  color: skyblue;
-  text-align: center;
-  text-shadow: 5px 5px 5px black
-  
+  display: flex;
+  justify-content: center;
+  color: cyan;
+  text-shadow: 5px 5px 5px black;
+  font-size:4rem;
 }
 .home-second-half-container{
-  position: relative;
-  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-repeat: no-repeat;
-  background-size:cover;
-  height: 1500px;
   background-image: url("../images/fondo\ violet\ wave.jpg")
   
 }
 .home-second-half-container p{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
   color:rgb(158, 15, 158);
-  display: inline-block;
-  padding-top: 10px;
-  margin: 0;
-  margin-left: 750px;
-  font-size:40px;
   font-family: 'Antonio', sans-serif;
-  padding: 90px;
   text-shadow: 5px 5px 5px #000000;
   text-align: center;
+  font-size: 4rem;
 }
 
-.home-second-half-container  button{
-  
-  width: 150px;
-  height: 150px;
-  border: none;
-  border-radius: 50%;
-  position: relative;
-  margin-right: 150px;
-  margin-top: 50px;
-  cursor: pointer;
-  left: 500px;
-}
-.footer{
-  position: relative;
-   height: 100px;
-   background-color: black;
-}
 .form-container{
-    max-width: 600px;
-    margin-top: -220px;
-    margin-bottom: 70px;
-    background-color: #000000;
-    padding: 5px;
-    border-radius: 8px;
-    position: absolute;
-    text-align: center;
-    height: 200px;
-    left: 100px;
-
-}
-.footer-content img{
-  position: relative;
-  display: inline-block;
-    margin: 20px;
-    width: 50px;
-    left: 800px;
-
-    
-}
-.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  position: relative;
+  background-image: url("/images/assasin\ creed\ oyssey.jpg");
+  background-size: cover;
+  width: 20rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10%;
+  
 }
+.submit-button{
+ margin-right: 9rem;
+ background-image: url("/images/fondo\ violet\ wave.jpg");
+ background-size: cover;
+ font-weight: bolder;
+ opacity: 0.8;
+
+ 
+}
+.input-opaco::placeholder{
+  opacity: 1; 
+}
+.input-opaco {
+  opacity: 0.5;
+  background-color: white;
+  color: magenta;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+.footer-content  {
+  justify-content: space-evenly;
+  display: flex;
+  background-color: #000000;
+  
+}
+.social-content{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 3rem;
+}
+.social-content p{
+  height: 1.6rem;
+  color:rgb(158, 15, 158);
+  font-family: 'Antonio', sans-serif;
+  text-shadow: 5px 5px 5px #000000;
+  margin-top: 0.1rem;
+}
+.social-content img {
+  display: flex;
+  width: 3rem;
+  
+}
+
+
+
+
+
+
+
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -214,22 +216,10 @@ input[type="submit"] {
 
 /*IMAGENES Y CREACION DEL CARROUSELL,(CUANDO SE IMPLEMENTE CON BOOTSTRAP AHORA SOLO REFERENCIA)*/
 .main-carrousell-container{
- height: 500px;
- width: 700px;
- position: absolute;
- margin-left: 650px;
- margin-top: 30px;
- padding: 150px;
+ display: flex;
+ flex-direction: row;
 }
-.second-space img{
- position: absolute;
-  border-radius: 25%;
-  width: 340px;
-  height: 250px;
-  margin-left: 390px;
-  margin-top: 190px;
-  z-index:1;
-  }
+
 .assasin-creed-image{
   width: 700px;
   position: absolute;
@@ -256,9 +246,9 @@ input[type="submit"] {
 }
 
 .main-carrousell-container h1{
+  display: flex;
+  justify-content: center;
   font-size: 40px;
-  display: inline-block;
-  position: absolute;
   font-family: 'Antonio', sans-serif;
   color:rgb(158, 15, 158);
   text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
@@ -267,22 +257,21 @@ input[type="submit"] {
 }
 /*-------------- imagenes para los links seleccion de juegos -------------*/
 
-.button-container{
-  display: inline-block;
-  text-align: center;
-  margin-left: 400px;
-  
+.button-container{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+
+    
 }
 .button-container a img{
+  display: flex;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  padding: 70px;
+  width: 9.5rem;
   
 }
-.button-container img{
-  box-shadow: 1px 0px 2px rgb(000000,000000,000000)
-}
+
 /*------------pagina god of war---------------*/
 
 .godofwargame{
@@ -348,4 +337,28 @@ input[type="submit"] {
   left: 1100px;
   color: white;
   text-shadow: 5px 5px 5px black;
+}
+
+/* index mobile section */
+@media(max-width:700px){
+  .header-container{
+    flex-direction: column;
+  }
+  .home-title-container h1 {
+    text-align: center;
+  }
+  .home-title-container p{
+    display: flex;
+    text-align: center;
+  }
+  .login-interface{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    
+  }
+  .home-title-container{
+    background-position:top
+  }
+  
 }
