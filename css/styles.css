@@ -324,20 +324,19 @@ justify-content: center;
     width: 100%;
   }
   
-  .social-content{
-    gap: 1rem;
-    margin-left: 19rem;
-    
-  }
-  
   .search-input{
     width: 15rem;
   }
-  .form-container{
-    position: absolute;
-    margin-right: 13rem;
-    padding: 4rem;
-    width: 11rem;
+  .footer-content{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20rem;
+   
 
+  }
+  .social-content{
+   margin-top: 1rem;
+   margin-left: 85px;
   }
 }
