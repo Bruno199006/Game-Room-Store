@@ -174,13 +174,7 @@ justify-content: center;
   gap: 2rem;
   margin-right: 5rem;
 }
-.social-content p{
-  height: 1.6rem;
-  color:rgb(158, 15, 158);
-  font-family: 'Antonio', sans-serif;
-  text-shadow: 5px 5px 5px #000000;
-  margin-top: 0.1rem;
-}
+
 .social-content img {
   width: 3rem;
   
@@ -312,9 +306,8 @@ justify-content: center;
     text-align: center;
   }
   .login-interface{
-    position: absolute;
     right: 1rem;
-    top: 1rem;
+    margin-top: 2rem;
     
   }
   .home-title-container{
@@ -324,24 +317,26 @@ justify-content: center;
     margin-top: 5rem;
   }
   .button-container{
-    gap: 2rem;
+    gap: 3rem;
   }
   .carousel{
     width: 100%;
   }
-  .form-container{
-    margin-left: 4rem;
-    padding: 1rem;
-
-  }
-  .social-content p{
-    position: absolute;
-    margin-top: 8rem;
-    margin-left: 2.8rem;
-    justify-content: center;
-  }
+  
   .social-content{
-    gap: 0rem;
-    margin-left: 3rem;
+    gap: 1rem;
+    margin-left: 19rem;
+    
+  }
+  
+  .search-input{
+    width: 15rem;
+  }
+  .form-container{
+    position: absolute;
+    margin-right: 13rem;
+    padding: 4rem;
+    width: 11rem;
+
   }
 }
