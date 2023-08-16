@@ -300,10 +300,11 @@ justify-content: center;
   }
   .home-title-container h1 {
     text-align: center;
+    font-size: 2rem;
   }
   .home-title-container p{
-    display: flex;
     text-align: center;
+    font-size: 1.7rem;
   }
   .login-interface{
     right: 1rem;
