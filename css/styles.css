@@ -103,6 +103,7 @@ text-align: center;
   justify-content: center;
   background-repeat: no-repeat;
   background-image: url("../images/fondo\ violet\ wave.jpg");
+  background-size: cover;
 
 }
 .home-second-half-container p{
@@ -198,10 +199,8 @@ justify-content: center;
   font-family: 'Antonio', sans-serif;
   color:rgb(158, 15, 158);
   text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
-  margin-left: -5rem;
-  margin-top: -22rem;
-  z-index: 1;
-  position: absolute;
+  text-align: center;
+  margin-top: 10rem;
 } 
 .carousel{
   display: flex;
