@@ -321,10 +321,10 @@ justify-content: center;
     background-position:top;
   }
   .home-second-half-container p{
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
   }
   .button-container{
-    /* gap: 2rem; */
+    gap: 2rem;
   }
   .carousel{
     width: 100%;
