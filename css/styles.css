@@ -319,9 +319,9 @@ justify-content: center;
   }
   .home-title-container{
     background-position:top;
-    margin-top: 4rem;
-    
-    
+  }
+  .home-second-half-container p{
+    margin-top: 5rem;
   }
   .button-container{
     gap: 2rem;
@@ -331,7 +331,7 @@ justify-content: center;
   }
   .form-container{
     margin-left: 4rem;
-    padding: 0rem;
+    padding: 1rem;
 
   }
   .social-content p{
