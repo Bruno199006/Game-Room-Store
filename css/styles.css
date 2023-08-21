@@ -239,7 +239,9 @@ justify-content: center;
 }
 
 .godofwargame{
-  display: flex;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows:repeat(3,50%) ;
   justify-content:center;
   background-size: cover;
   background-image: url("../images/kratos\ wallpaper.jpg");
@@ -248,53 +250,34 @@ justify-content: center;
 
 .grid-content{
   height: 60vh;
+  width: 100vh;
 	display: grid;
 	grid-template-columns:1fr 1fr ;
   grid-template-rows:repeat(2,50%) ;
-  justify-items: center;
-  justify-content: flex-end;
-	gap: 7rem;
-  margin-left: 1rem;
+	gap: 1rem;
   margin-top: 2rem;
 }
 .grid-content img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 5%;
-  
+  border-radius: 2%;
 }
 
 .youtube-video{
-  border-radius: 10%;
   height: fit-content;
-  margin-right: 2rem;
-  margin-top: 1rem;
+  margin-right: 14rem;
+  margin-top: 2rem;
+}
+.steam-logo{
+  display: block;
+  text-align: center;
+  width: 16rem;
+  height:fit-content;
+  margin-top: 7rem;
+  margin-left: 2rem;
 }
 
-.godofwargame p{
-  /* width: 200px;
-  position: absolute;
-  font-size: x-large;
-  margin-left: 400px;
-  margin-bottom: 150px;
-  display: inline-block;
-  margin-top: 550px;
-  left:900px ;
-  color: white;
-  text-shadow: 5px 5px 5px black; */
-}
-.godofwargame p:last-of-type{
-  /* width: 200px;
-  position: absolute;
-  font-size: x-large;
-  margin-left: 200px;
-  display: inline-block;
-  margin-top: 230px;
-  left: 1100px;
-  color: white;
-  text-shadow: 5px 5px 5px black; */
-}
 
 /* index mobile section */
 @media(max-width:768px){
@@ -345,5 +328,34 @@ justify-content: center;
 }
 /* God of war page mobile section */
 @media(max-width:768px){
+  .header-godofwar img{
+    width: 25rem;
+    background-image: cover;
+  }
+  
+.godofwargame{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4,10%);
+  height: 100vh;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+.grid-content{
+  width: 43vh;
+  height: 30vh;
+  margin-top: 30rem;
+  margin-left: 14.3rem;
 
+}
+.youtube-video iframe{
+     width: 25rem;
+     height: 20rem;
+     margin-left: 14rem;
+     
+}
+.youtube-video img{
+  margin-left: 18rem;
+  position: absolute;
+  margin-bottom: 5rem;
+}
 }
