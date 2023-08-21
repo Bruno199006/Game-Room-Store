@@ -244,7 +244,7 @@ justify-content: center;
   grid-template-rows:repeat(3,50%) ;
   justify-content:center;
   background-size: cover;
-  background-image: url("../images/kratos\ wallpaper.jpg");
+  background-image: url("../images/Gowlandscape.webp");
   height: 50rem;
 }
 
@@ -339,7 +339,9 @@ justify-content: center;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
+
 .grid-content{
   width: 43vh;
   height: 30vh;
@@ -347,12 +349,12 @@ justify-content: center;
 
 }
 .youtube-video iframe{
-     width: 24rem;
+     width: 23rem;
      height: 19rem;
      margin-left: 14rem;
 }
 .youtube-video img{
-margin-top: 25rem;
+margin-top: 24rem;
 margin-left: 17rem;
 }
 }
