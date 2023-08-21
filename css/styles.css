@@ -335,27 +335,24 @@ justify-content: center;
   
 .godofwargame{
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4,10%);
+  grid-template-rows: repeat(2,10%);
   height: 100vh;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .grid-content{
   width: 43vh;
   height: 30vh;
-  margin-top: 30rem;
-  margin-left: 14.3rem;
+  margin: 18rem auto;
 
 }
 .youtube-video iframe{
-     width: 25rem;
-     height: 20rem;
+     width: 24rem;
+     height: 19rem;
      margin-left: 14rem;
-     
 }
 .youtube-video img{
-  margin-left: 18rem;
-  position: absolute;
-  margin-bottom: 5rem;
+margin-top: 25rem;
+margin-left: 17rem;
 }
 }
