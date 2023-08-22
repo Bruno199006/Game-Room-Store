@@ -240,8 +240,6 @@ justify-content: center;
 
 .godofwargame{
   display: flex;
-  /* grid-template-columns:1fr 1fr  ;
-  grid-template-rows:repeat(2,50%) ; */
   justify-content:center;
   background-size: cover;
   background-image: url("../images/Gowlandscape.webp");
@@ -367,3 +365,4 @@ justify-content: center;
   margin-top: 25rem;
 }
 }
+
