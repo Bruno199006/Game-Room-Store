@@ -282,7 +282,9 @@ justify-content: center;
   margin-top: 8rem;
 }
 .steam-link img{
-  width: 20rem;
+  width: 18rem;
+  border-radius: 80%;
+  box-shadow: 12px 12px 12px black;
 }
 
 
@@ -310,19 +312,6 @@ justify-content: center;
   background-image: url("../images/hogwarts\ legacy\ landscape.jpg");
   height: 50rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* index mobile section */
@@ -373,7 +362,7 @@ justify-content: center;
   }
 }
 /* God of war page mobile section */
-@media(max-width:600px){
+@media screen and (max-width:600px){
   .header-godofwar img{
     width: 20rem;
     background-image: cover;
@@ -382,28 +371,36 @@ justify-content: center;
 .godofwargame{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2,10%);
+  grid-template-rows: repeat(2,20%);
   place-items: center;
-  height: 120vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 } 
-
 .grid-content{
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows: repeat(3,50%) ;
-  width: 40vh;
-  height: 30vh;
-  margin-top: 70rem;
+  position: absolute;
+  width: 100%;
+  height: auto;
   margin-left: 10rem;
+  margin-top: 26rem;
+}
+.steam-link {
+  position: absolute;
+  margin-top: 29rem;
+  margin-left: 11rem;
+  
+}
+.steam-link img {
+  width: 10rem;
+}
+.youtube-video iframe{
+  flex-direction: column;
+  width: 22rem;
+  height:18rem;
+  margin-top: 10rem;
+  
 }
 
-.youtube-video iframe{
-  width: 23rem;
-  height:17rem;
-  margin-top: 25rem;
-}
 }
 
