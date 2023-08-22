@@ -373,21 +373,21 @@ justify-content: center;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2,20%);
   place-items: center;
-  height: 100vh;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 } 
 .grid-content{
-  width: 70%;
+  width: 67%;
   height: auto;
   margin-left: 10rem;
-  margin-top: 50rem;
+  margin-top: 24rem;
 }
 .steam-link {
   position: absolute;
-  margin-top: 29rem;
-  margin-left: 11rem;
+  margin-top: 50rem;
+  margin-left: 9.5rem;
   
 }
 .steam-link img {
@@ -395,8 +395,8 @@ justify-content: center;
 }
 .youtube-video iframe{
   flex-direction: column;
-  width: 22rem;
-  height:18rem;
+  width: 19.5rem;
+  height:11rem;
   margin-top: 10rem;
   
 }
