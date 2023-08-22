@@ -240,8 +240,8 @@ justify-content: center;
 
 .godofwargame{
   display: grid;
-  grid-template-columns:1fr 1fr 1fr ;
-  grid-template-rows:repeat(3,50%) ;
+  grid-template-columns:1fr 1fr  ;
+  grid-template-rows:repeat(2,50%) ;
   justify-content:center;
   background-size: cover;
   background-image: url("../images/Gowlandscape.webp");
@@ -249,13 +249,14 @@ justify-content: center;
 }
 
 .grid-content{
+  display: grid;
   height: 60vh;
   width: 100vh;
-	display: grid;
 	grid-template-columns:1fr 1fr ;
   grid-template-rows:repeat(2,50%) ;
 	gap: 1rem;
   margin-top: 2rem;
+  margin-right: 10rem;
 }
 .grid-content img{
   width: 100%;
@@ -265,17 +266,26 @@ justify-content: center;
 }
 
 .youtube-video{
+  display: flex;
+  flex-direction: column;
   height: fit-content;
-  margin-right: 14rem;
+  width: fit-content;
+  margin-right: 5rem;
   margin-top: 2rem;
 }
-.steam-logo{
-  display: block;
+.youtube-video iframe{
+  margin-left: 5rem;
+}
+.steam-link{
+  display: flex;
   text-align: center;
-  width: 16rem;
-  height:fit-content;
-  margin-top: 7rem;
-  margin-left: 2rem;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.steam-link img{
+  width: 20rem;
 }
 
 
@@ -344,17 +354,21 @@ justify-content: center;
 
 .grid-content{
   width: 43vh;
-  height: 30vh;
-  margin: 18rem auto;
+  height: 25vh;
+  margin: 34rem auto;
 
 }
-.youtube-video iframe{
-     width: 23rem;
-     height: 19rem;
-     margin-left: 14rem;
+.youtube-video{
+  height: fit-content;
+  width: fit-content;
 }
-.youtube-video img{
-margin-top: 24rem;
-margin-left: 17rem;
+.youtube-video iframe{
+  width: 25rem;
+  height:17rem;
+}
+
+.steam-link img{
+  margin-left: 2rem;
+  margin-bottom: 10rem;
 }
 }
