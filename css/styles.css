@@ -315,7 +315,7 @@ justify-content: center;
 
 
 /* index mobile section */
-@media(max-width:767px){
+@media(max-width:768px){
   .header-container{
     flex-direction: column;
   }
@@ -362,7 +362,7 @@ justify-content: center;
   }
 }
 /* God of war page mobile section */
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
   .header-godofwar img{
     width: 20rem;
     background-image: cover;
@@ -381,8 +381,8 @@ justify-content: center;
 .grid-content{
   width: 70%;
   height: auto;
-  margin-left: 160px;
-  margin-top: 650px;
+  margin-left: 10rem;
+  margin-top: 50rem;
 }
 .steam-link {
   position: absolute;
