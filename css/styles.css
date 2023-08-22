@@ -78,6 +78,8 @@ text-align: center;
   align-items: center;
   background-image: url(../images/title-background.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 5rem;
   gap: 3rem;
 }
@@ -282,6 +284,44 @@ justify-content: center;
 .steam-link img{
   width: 20rem;
 }
+
+
+
+/* Pagina Hogwarts legacy */
+
+.header-hogwarts-legacy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/fondo\ violet\ wave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 1rem;
+ 
+}
+.header-hogwarts-legacy img{
+  width: 25rem;
+}
+.hogwarts-legacy-game{
+  display: flex;
+  justify-content:center;
+  background-size: cover;
+  background-image: url("../images/hogwarts\ legacy\ landscape.jpg");
+  height: 50rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* index mobile section */
