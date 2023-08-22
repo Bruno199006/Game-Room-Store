@@ -239,9 +239,9 @@ justify-content: center;
 }
 
 .godofwargame{
-  display: grid;
-  grid-template-columns:1fr 1fr  ;
-  grid-template-rows:repeat(2,50%) ;
+  display: flex;
+  /* grid-template-columns:1fr 1fr  ;
+  grid-template-rows:repeat(2,50%) ; */
   justify-content:center;
   background-size: cover;
   background-image: url("../images/Gowlandscape.webp");
@@ -268,8 +268,6 @@ justify-content: center;
 .youtube-video{
   display: flex;
   flex-direction: column;
-  height: fit-content;
-  width: fit-content;
   margin-right: 5rem;
   margin-top: 2rem;
 }
@@ -279,18 +277,18 @@ justify-content: center;
 .steam-link{
   display: flex;
   text-align: center;
-  height: fit-content;
-  width: fit-content;
-  margin-top: 5rem;
-  margin-left: 5rem;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-top: 8rem;
 }
 .steam-link img{
   width: 20rem;
+  height: fit-content;
 }
 
 
 /* index mobile section */
-@media(max-width:768px){
+@media(max-width:600px){
   .header-container{
     flex-direction: column;
   }
@@ -337,38 +335,36 @@ justify-content: center;
   }
 }
 /* God of war page mobile section */
-@media(max-width:768px){
+@media(max-width:600px){
   .header-godofwar img{
-    width: 25rem;
+    width: 20rem;
     background-image: cover;
   }
   
 .godofwargame{
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2,10%);
-  height: 100vh;
+  place-items: center;
+  height: 120vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} 
 
 .grid-content{
-  width: 43vh;
-  height: 25vh;
-  margin: 34rem auto;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: repeat(3,50%) ;
+  width: 40vh;
+  height: 30vh;
+  margin-top: 70rem;
+  margin-left: 10rem;
+}
 
-}
-.youtube-video{
-  height: fit-content;
-  width: fit-content;
-}
 .youtube-video iframe{
-  width: 25rem;
+  width: 23rem;
   height:17rem;
-}
-
-.steam-link img{
-  margin-left: 2rem;
-  margin-bottom: 10rem;
+  margin-top: 25rem;
 }
 }
