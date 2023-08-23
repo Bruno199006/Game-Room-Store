@@ -313,6 +313,58 @@ justify-content: center;
   height: 50rem;
 }
 
+/* Little nightmares page */
+.header-little-nightmares{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/fondo\ violet\ wave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem;
+ 
+}
+
+.header-little-nightmares img{
+  width: 15rem;
+}
+
+.little-nightmares-game{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+    background-image: url("../images/little\ nightmares\ background.jpg");
+    height: 50rem;
+}
+
+/* Resident evil page */
+.header-resident-evil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/fondo\ violet\ wave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem;
+ 
+}
+
+.header-resident-evil img{
+  width: 30rem;
+}
+
+.resident-evil-game{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+    background-image: url("../images/resident\ evil\ 4\ background.jpeg");
+    height: 50rem;
+}
+
+
+
 
 /* index mobile section */
 @media(max-width:768px){
