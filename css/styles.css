@@ -11,60 +11,33 @@
       background-size: cover;
   }
   
-  
-  /* ul{
-      list-style: none;
-  } */
-  
-  
-  
   /*------------------ Navbar ----------------------*/
-   .header-container{
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    background-color: #000000;
-    padding: 1rem;
+   
+  .nav-link{
+    color: white;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: magenta; 
+    background-color: transparent; 
+  }
+  .shop-icon:hover{
+    color: magenta; 
+    background-color: transparent; 
   }
    .shop-icon{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: flex-end;
     gap: 1rem;
-    color: white;
+    color: white; 
+    background-color: transparent; 
     
    }
    .shop-icon img{
     width: 4.5rem;
   
    }
-  .login-interface{
-    display: flex;
-    justify-content: flex-end;
-  }
-  .login-interface a {
-    text-decoration: none;
-  }
-  .user-links{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 20px;
-  }
-  .user-icon{
-    display: flex;
-    color: white;
-    align-self: center;
-    margin-right: 2rem;
-  }
-  .search-input{
-  width: 18rem;
-  height: 2rem;
-  border-radius: 2rem;
-  text-align: center;
-  }
-  
-  
   
     /*============ navbar =============*/
   
@@ -76,14 +49,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/title-background.jpg);
+    background-image: url("../images/title-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem;
     gap: 3rem;
   }
-   
+   .games-for-sale-title{
+    margin-top: 5rem;
+   }
+
    
    .home-title-container p{
     justify-content: center;
@@ -117,7 +93,24 @@
     text-align: center;
     font-size: 4rem;
   }
-  
+  .form-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: fit-content;
+    
+  }
+  .contact-title{
+    font-size: 40px;
+    font-family: 'Antonio', sans-serif;
+    color:rgb(158, 15, 158);
+    text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    height: fit-content;
+  }
+
   .form-container{
     display: flex;
     align-items: center;
@@ -126,16 +119,21 @@
     text-align: center;
     background-image: url("../images/assasin\ creed\ oyssey.jpg");
     background-size: cover;
-    width: 15rem;
+    width: 25rem;
     margin-top: 1rem;
-    border-radius: 10%;
-    height: 13rem;
+    border-radius: 2%;
+    height: 20rem;
     
   }
   
   .form-container label{
     color: white;
     text-shadow: 5px 5px 5px magenta;
+    font-size: 1.5rem;
+  }
+  .form-container input{
+    width: 15rem;
+    height: 2rem;
   }
   .submit-button{
   display: flex;
@@ -144,16 +142,21 @@
    background-size: cover;
    font-weight: bolder;
    opacity: 0.8;
-   width: 8rem;
+   width: 10rem;
+   height: 3rem;
    color: white;
-  
-   
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+  }
+  #mensaje{
+    height: 6rem;
+    width: 15rem;
   }
   .input-opaco::placeholder{
     opacity: 1; 
   }
   .input-opaco {
-    opacity: 0.5;
+    opacity: 0.7;
     background-color: white;
     color: magenta;
     font-weight: bolder;
@@ -166,15 +169,13 @@
     display: flex;
     justify-content: space-evenly;
     display: flex;
+    height: 7rem;
     background-color: #000000;
-    height: 14rem;
-    
   }
   .social-content{
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-right: 5rem;
   }
   
   .social-content img {
@@ -412,9 +413,6 @@
      margin-top: 1rem;
      margin-left: 85px;
     }
-  }
-  /* God of war page mobile section */
-  @media screen and (max-width:768px){
     .header-godofwar img{
       width: 20rem;
       background-image: cover;
@@ -457,3 +455,4 @@
   }
   
   }
+  

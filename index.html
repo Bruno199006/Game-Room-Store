@@ -6,6 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <link
       href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
       rel="stylesheet"
     />
@@ -13,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
 <link rel="icon" href="./images/gamestorelogo.png">
+
 
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -28,8 +33,8 @@
 
   <body>
 
-      <header>
-        <nav>
+      
+        <!-- <nav>
           <div class="header-container">
                <div class="shop-icon">
                 <a href="/index.html"><img src="./images/gamestorelogo.png" alt=""></a>
@@ -46,7 +51,33 @@
           
                </div>
           </div>
+        </nav> -->
+      <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+          <div class="container-fluid">
+            <a class="shop-icon navbar-brand" href="/index.html"><img src="./images/gamestorelogo.png" alt="link del home">Game room store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/god-of-war.html">God of war</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/resident-evil-4-remake.html">Resident evil 4</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/hogwarts-legacy.html">Hogwarts legacy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/hogwarts-legacy.html">Little nightmares</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
+
       </header>
      
 
@@ -58,7 +89,7 @@
           <h1>Your online shop for pc games</h1>
         </div>
         <div class="home-second-half-container">
-          <p>Games for sale</p>
+          <p class="games-for-sale-title ">Games for sale</p>
           <div class="button-container">
             <a href="pages/god-of-war.html"><img src="./images/God_of_War_4_cover.webp" alt="icono de seccion god of war"></a>
             <a href="pages/resident-evil-4-remake.html"><img src="./images/Resident evil 4.webp" alt="icono de seccion resident evil 4"></a>
@@ -66,14 +97,9 @@
             <a href="pages/little-nightmares.html"><img src="./images/little nightmares.jpg" alt="icono de seccion little nightmares"></a>
           </div>
         
-        
-          
-        
-         
-        
           <!--carrousell incoming games title-->
           <!-- carousel bootstrap -->
-          <h1 class="carousel-title">incoming games</h1>
+          <h1 class="carousel-title ">incoming games</h1>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -97,25 +123,27 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <h1 class="contact-title">Contact us</h1>
+        <div class="form-box">
+        <form class="form-container" action="#" method="post">
+          <label for="nombre">Name:</label>
+          <input type="text" id="nombre" class="input-opaco" name="nombre" required>
+
+          <label for="correo">Email:</label>
+          <input type="email" id="correo" class="input-opaco" name="correo" required>
+
+          <label for="mensaje">Message:</label>
+          <textarea id="mensaje" name="mensaje" class="input-opaco" required></textarea>
+          
+          <input type="submit" class="submit-button" value="Submit">
+      </form>
+    </div>
       </div>
 
         </main>
         <!-- footer -->
             <footer>
               <div class="footer-content">
-                  <form class="form-container" action="#" method="post">
-                    <label for="nombre">Name:</label>
-                    <input type="text" id="nombre" class="input-opaco" name="nombre" required>
-        
-                    <label for="correo">Email:</label>
-                    <input type="email" id="correo" class="input-opaco" name="correo" required>
-        
-                    <label for="mensaje">Message:</label>
-                    <textarea id="mensaje" name="mensaje" class="input-opaco" required></textarea>
-                    
-                    <input type="submit" class="submit-button" value="Submit">
-                </form>
-              
                 <div class="social-content">
                   <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png" alt=""></a>
                   <a href="https://www.instagram.com/"target="_blank"><img src="./images/instagram.png" alt=""></a>
