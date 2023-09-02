@@ -438,6 +438,36 @@
     background-repeat: no-repeat;
     background-position: center;
   } 
+  .hogwarts-legacy-game{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,20%);
+    place-items: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .little-nightmares-game{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,20%);
+    place-items: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .resident-evil-game{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,20%);
+    place-items: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .grid-content{
     grid-template-columns:1fr;
     grid-template-rows:repeat(1,20%) ;
@@ -465,8 +495,6 @@
   }
   .form-container{
     width: 19rem;
-  }
-  .form-container input textarea{
   }
   
   }
