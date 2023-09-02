@@ -35,6 +35,10 @@
    .shop-icon img{
     width: 4.5rem;
    }
+   .container-fluid button{
+    background-color: magenta;
+    opacity: 0.4;
+   }
   
   
    
