@@ -406,23 +406,22 @@
       gap: 3rem;
     }
     .carousel{
-      width: 100%;
+      width: 95%;
     }
     
     .search-input{
       width: 15rem;
     }
     .footer-content{
-      align-items: center;
       justify-content: center;
       flex-direction: column;
-      height: 20rem;
+      height: 5rem;
      
   
     }
     .social-content{
      margin-top: 1rem;
-     margin-left: 85px;
+     justify-content: center;
     }
     .header-godofwar img{
       width: 20rem;
@@ -463,6 +462,11 @@
     height:11rem;
     margin-top: 1rem;
     
+  }
+  .form-container{
+    width: 19rem;
+  }
+  .form-container input textarea{
   }
   
   }
