@@ -183,21 +183,13 @@ body {
     margin-top: 2rem; }
     .godofwargame .youtube-video iframe {
       margin-left: 5rem; }
-
-.grid-content {
-  display: grid;
-  height: 60vh;
-  width: 100vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 50%);
-  gap: 1rem;
-  margin-top: 2rem;
-  margin-right: 10rem; }
-  .grid-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2%; }
+  .godofwargame .grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 48%);
+    gap: 1rem; }
+    .godofwargame .grid-content img {
+      border-radius: 5%; }
 
 .hogwarts-legacy-game {
   display: flex;
@@ -228,7 +220,7 @@ body {
   height: 60vh;
   width: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 50%);
+  grid-template-rows: repeat(2, 48%);
   gap: 1rem;
   margin-top: 2rem;
   margin-right: 10rem; }
@@ -267,7 +259,7 @@ body {
   height: 60vh;
   width: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 50%);
+  grid-template-rows: repeat(2, 48%);
   gap: 1rem;
   margin-top: 2rem;
   margin-right: 10rem; }
@@ -306,7 +298,7 @@ body {
   height: 60vh;
   width: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 50%);
+  grid-template-rows: repeat(2, 48%);
   gap: 1rem;
   margin-top: 2rem;
   margin-right: 10rem; }
@@ -362,7 +354,7 @@ body {
       margin-top: 1rem; }
     .godofwargame .grid-content, .hogwarts-legacy-game .grid-content, .little-nightmares-game .grid-content, .resident-evil-game .grid-content {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(1, 20%);
+      grid-template-rows: repeat(2, 20%);
       gap: 3rem;
       width: 15rem;
       height: auto;
