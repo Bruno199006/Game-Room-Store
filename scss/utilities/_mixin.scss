@@ -1,0 +1,26 @@
+@mixin page-header-flex {
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/fondo\ violet\ wave.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1rem;
+
+    img{
+        width: 25rem;
+    }
+}
+@mixin flex-positions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin vertical-direction{
+    flex-direction: column;
+}

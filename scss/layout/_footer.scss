@@ -1,0 +1,17 @@
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 7rem;
+    background-color: #000000;
+  
+    .social-content {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+  
+      img {
+        width: 3rem;
+      }
+    }
+  }
+  

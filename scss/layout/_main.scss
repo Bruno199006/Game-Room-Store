@@ -1,0 +1,446 @@
+
+//////////index home main//////////////
+.home-title-container{
+    @include flex-positions;
+    @include vertical-direction;
+    background-image: url("../images/title-background.jpg");
+    @include background;
+    padding: 5rem;
+    gap: 3rem;
+
+    .games-for-sale-title{
+      margin-top: 5rem;
+    }
+
+    p{
+       justify-content: center;
+       font-family: "Besley",serif;
+       color: $secondary-color;
+       text-shadow: $text-shadow;
+       font-size: 3rem;
+
+    }
+
+    h1{
+       justify-content: center;
+       color: $secondary-color;
+       text-shadow: $text-shadow;
+       font-size: 4rem;
+    }
+}
+.home-second-half-container{
+    @include flex-positions;  
+    @include vertical-direction;
+   @include background;
+    background-image: url("../images/fondo\ violet\ wave.jpg");
+    
+
+    .button-container{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 8rem;
+
+        a img{
+            display: flex;
+            border-radius: 50%;
+            width: 9.5rem;
+            
+        }
+        
+    }
+    p{
+        @include vertical-direction;
+        color:rgb(158, 15, 158);
+        font-family: 'Antonio', sans-serif;
+        text-shadow: $text-shadow;
+        text-align: center;
+        font-size: 4rem;
+    }
+    .form-box{
+        @include flex-positions;
+        margin-bottom: 1rem;
+        height: fit-content;
+    }
+    .contact-title{
+        font-size: 40px;
+        font-family: 'Antonio', sans-serif;
+        color:$primary-color;
+        text-shadow: $text-shadow ;
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        height: fit-content;
+    }
+    .form-container{
+       @include flex-positions;
+        @include vertical-direction;
+        text-align: center;
+        background-image: url("../images/assasin\ creed\ oyssey.jpg");
+        @include background;
+        width: 25rem;
+        margin-top: 1rem;
+        border-radius: 2%;
+        height: 20rem;
+        
+        label{
+            color: $third-color;
+            text-shadow: 5px 5px 5px $primary-color;
+            font-size: 1.5rem;
+        }
+        input{
+            width: 15rem;
+            height: 2rem;
+        }
+        .submit-button{
+            @include flex-positions;
+             background-image: url("../images/fondo\ violet\ wave.jpg");
+             @include background;
+             font-weight: bolder;
+             opacity: 0.8;
+             width: 10rem;
+             height: 3rem;
+             color: $third-color;
+             margin-top: 2rem;
+             margin-bottom: 1rem;
+        }
+        #mensaje{
+            height: 6rem;
+            width: 15rem;
+        }
+        .input-opaco{
+            opacity: 0.7;
+            background-color: $third-color;
+            color: $primary-color;
+            font-weight: bolder;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            &::placeholder{
+              opacity: 1;
+            }
+        }
+    }
+    .carousel{
+    @include flex-positions;
+    justify-content: space-between;
+    width: 40rem;
+    margin-left: 10rem;
+    margin: 10rem auto;
+
+    img{
+        width: 50rem;
+    justify-items: center;
+    border-radius: 10%;
+    }
+
+
+    }
+    .carousel-title{
+        font-size: 40px;
+    font-family: 'Antonio', sans-serif;
+    color:rgb(158, 15, 158);
+    text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
+    text-align: center;
+    margin-top: 10rem;
+    }
+}///////////////////////////////
+
+
+////////////////God of war main///////////////////
+
+.godofwargame{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+    background-image: url("../images/Gowlandscape.webp");
+    height: 50rem;
+
+    .steam-link{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 4rem;
+        margin-top: 8rem;
+
+        img{
+            width: 18rem;
+    border-radius: 80%;
+    box-shadow: 12px 12px 12px black;
+        }
+      }
+      .youtube-video{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+        margin-top: 2rem;
+
+        iframe{
+            margin-left: 5rem;
+        }
+        
+      }
+  }
+  .grid-content{
+    display: grid;
+    height: 60vh;
+    width: 100vh;
+      grid-template-columns:1fr 1fr ;
+    grid-template-rows:repeat(2,50%) ;
+      gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+    img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    }
+    
+      
+  }
+  ////////////////////////////////////////////////
+  
+  ////////////Hogwarts legacy main  /////////////////////
+   
+  .hogwarts-legacy-game{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+    background-image: url("../images/hogwarts legacy landscape.jpg");
+    height: 50rem;
+
+    .steam-link{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 4rem;
+        margin-top: 8rem;
+
+        img{
+            width: 18rem;
+    border-radius: 80%;
+    box-shadow: 12px 12px 12px black;
+        }
+      }
+      .youtube-video{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+        margin-top: 2rem;
+
+        iframe{
+            margin-left: 5rem;
+        }
+        
+      }
+  }
+  .grid-content{
+    display: grid;
+    height: 60vh;
+    width: 100vh;
+      grid-template-columns:1fr 1fr ;
+    grid-template-rows:repeat(2,50%) ;
+      gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+    img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    }
+}
+////////////Resident evil main /////////////////////
+.resident-evil-game{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+    background-image: url("../images/resident evil 4 background.jpeg");
+    height: 50rem;
+
+    .steam-link{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 4rem;
+        margin-top: 8rem;
+
+        img{
+            width: 18rem;
+    border-radius: 80%;
+    box-shadow: 12px 12px 12px black;
+        }
+      }
+      .youtube-video{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+        margin-top: 2rem;
+
+        iframe{
+            margin-left: 5rem;
+        }
+        
+      }
+  }
+  .grid-content{
+    display: grid;
+    height: 60vh;
+    width: 100vh;
+      grid-template-columns:1fr 1fr ;
+    grid-template-rows:repeat(2,50%) ;
+      gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+    img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    }
+}
+////////////Little nightmares main /////////////////////
+.little-nightmares-game{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+    background-image: url("../images/little nightmares background.jpg");
+    height: 50rem;
+
+    .steam-link{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 4rem;
+        margin-top: 8rem;
+
+        img{
+            width: 18rem;
+    border-radius: 80%;
+    box-shadow: 12px 12px 12px black;
+        }
+      }
+      .youtube-video{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+        margin-top: 2rem;
+
+        iframe{
+            margin-left: 5rem;
+        }
+        
+      }
+  }
+  .grid-content{
+    display: grid;
+    height: 60vh;
+    width: 100vh;
+      grid-template-columns:1fr 1fr ;
+    grid-template-rows:repeat(2,50%) ;
+      gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+    img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    }
+}
+    /////Mobile section////
+@media(max-width:768px){
+    .nav-link {
+     margin-left: 2rem;
+     text-align: center;
+    }
+    
+    .home-title-container{
+      background-position:top;
+      h1{
+        text-align: center;
+        font-size: 2rem;
+      }
+      p{
+        text-align: center;
+        font-size: 1.7rem;
+      }
+    }
+    .home-second-half-container {
+     p{
+        margin-top: 5rem;
+     }
+    
+    .button-container{
+      gap: 3rem;
+    }
+    .carousel{
+      width: 95%;
+    }
+
+    .footer-content{
+      justify-content: center;
+      flex-direction: column;
+      height: 5rem;
+     
+  
+    }
+    .social-content{
+     margin-top: 1rem;
+     justify-content: center;
+    }
+    .header-godofwar {
+       img{
+        width: 20rem;
+        background-image: cover;
+       }
+    }
+    
+    .form-container{
+    width: 19rem;
+  }
+  
+  }
+
+.godofwargame, .hogwarts-legacy-game, .little-nightmares-game, .resident-evil-game{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,20%);
+    place-items: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    .youtube-video iframe{
+    flex-direction: column;
+    width: 19.5rem;
+    height:11rem;
+    margin-top: 1rem;
+    }
+    .grid-content{
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(1,20%) ;
+    gap: 3rem;
+    width: 15rem;
+    height: auto;
+    margin-left: 10rem;
+    margin-top: 28rem;
+  }
+  .steam-link {
+    position: absolute;
+    margin-top: 66rem;
+    margin-left: 9.5rem;
+    
+  }
+  .steam-link img {
+    width: 10rem;
+  }
+  } 
+}
+  

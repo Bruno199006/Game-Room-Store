@@ -1,501 +1,399 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body{
-      font-family: 'Bangers', cursive;
-      background-image: url("../images/pxfuel.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  
-  /*------------------ Navbar ----------------------*/
-   
-  .nav-link{
-    color: white;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-  .navbar-nav .nav-link:hover {
-    color: magenta; 
-    background-color: transparent; 
-  }
-  .shop-icon:hover{
-    color: magenta; 
-    background-color: transparent; 
-  }
-   .shop-icon{
-    display: flex;
-    align-items: center;
-    color: white; 
-    background-color: transparent; 
-    
-   }
-   .shop-icon img{
-    width: 4.5rem;
-   }
-   .container-fluid button{
-    background-color: magenta;
-    opacity: 0.4;
-   }
-  
-  
-   
-   
-  
-   
-   
-    /*============ navbar =============*/
-  
-  
-  
-  
-   /*///////////////////HOME-PAGE INDEX////////////////*/
-   .home-title-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../images/title-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5rem;
-    gap: 3rem;
-  }
-   .games-for-sale-title{
-    margin-top: 5rem;
-   }
+body {
+  font-family: "Bangers",cursive; }
 
-   
-   .home-title-container p{
-    justify-content: center;
-    font-family: 'Besley', serif;
-    color: cyan;
-    text-shadow: 5px 5px 5px black;
-    font-size: 3rem;
-   
-  }
-  .home-title-container h1{
-    justify-content: center;
-    color: cyan;
-    text-shadow: 5px 5px 5px black;
-    font-size:4rem;
-  }
-  
-  .home-second-half-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-image: url("../images/fondo\ violet\ wave.jpg");
-    background-size: cover;
-  
-  }
-  .home-second-half-container p{
-    flex-direction: column;
-    color:rgb(158, 15, 158);
-    font-family: 'Antonio', sans-serif;
-    text-shadow: 5px 5px 5px #000000;
-    text-align: center;
-    font-size: 4rem;
-  }
-  .form-box{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-    height: fit-content;
-    
-  }
-  .contact-title{
-    font-size: 40px;
-    font-family: 'Antonio', sans-serif;
-    color:rgb(158, 15, 158);
-    text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    height: fit-content;
-  }
+.nav-link {
+  color: white; }
+  .nav-link:hover {
+    color: magenta;
+    background-color: transparent; }
 
-  .form-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-image: url("../images/assasin\ creed\ oyssey.jpg");
-    background-size: cover;
-    width: 25rem;
-    margin-top: 1rem;
-    border-radius: 2%;
-    height: 20rem;
-    
-  }
-  
-  .form-container label{
-    color: white;
-    text-shadow: 5px 5px 5px magenta;
-    font-size: 1.5rem;
-  }
-  .form-container input{
-    width: 15rem;
-    height: 2rem;
-  }
-  .submit-button{
+.container-fluid button {
+  background-color: magenta;
+  opacity: 0.4; }
+
+.container-fluid .shop-icon {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: transparent; }
+  .container-fluid .shop-icon:hover {
+    color: magenta;
+    background-color: transparent; }
+  .container-fluid .shop-icon img {
+    width: 4.5rem; }
+
+.home-title-container {
   display: flex;
   justify-content: center;
-   background-image: url("../images/fondo\ violet\ wave.jpg");
-   background-size: cover;
-   font-weight: bolder;
-   opacity: 0.8;
-   width: 10rem;
-   height: 3rem;
-   color: white;
-   margin-top: 2rem;
-   margin-bottom: 1rem;
-  }
-  #mensaje{
-    height: 6rem;
-    width: 15rem;
-  }
-  .input-opaco::placeholder{
-    opacity: 1; 
-  }
-  .input-opaco {
-    opacity: 0.7;
-    background-color: white;
-    color: magenta;
-    font-weight: bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-  }
-  
-  
-  .footer-content  {
-    display: flex;
-    justify-content: space-evenly;
-    display: flex;
-    height: 7rem;
-    background-color: #000000;
-  }
-  .social-content{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .social-content img {
-    width: 3rem;
-    
-  }
-  
-  
-  
-  
-  /*IMAGENES Y CREACION DEL CARROUSELL */
-  
-    .carousel-title{
-    font-size: 40px;
-    font-family: 'Antonio', sans-serif;
-    color:rgb(158, 15, 158);
-    text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
-    text-align: center;
-    margin-top: 10rem;
-  } 
-  .carousel{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40rem;
-    margin-left: 10rem;
-    margin: 10rem auto;
-  }
-  .carousel img {
-    width: 50rem;
-    justify-items: center;
-    border-radius: 10%;
-  }
-  
-  
-  /*-------------- imagenes para los links seleccion de juegos -------------*/
-  
-  .button-container{ 
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/title-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  gap: 3rem; }
+  .home-title-container .games-for-sale-title {
+    margin-top: 5rem; }
+  .home-title-container p {
+    justify-content: center;
+    font-family: "Besley",serif;
+    color: cyan;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 3rem; }
+  .home-title-container h1 {
+    justify-content: center;
+    color: cyan;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 4rem; }
+
+.home-second-half-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/fondo violet wave.jpg"); }
+  .home-second-half-container .button-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10rem;
-    margin-top: 8rem;
-  
-      
-  }
-  .button-container a img{
+    margin-top: 8rem; }
+    .home-second-half-container .button-container a img {
+      display: flex;
+      border-radius: 50%;
+      width: 9.5rem; }
+  .home-second-half-container p {
+    flex-direction: column;
+    color: #9e0f9e;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: 5px 5px 5px #000000;
+    text-align: center;
+    font-size: 4rem; }
+  .home-second-half-container .form-box {
     display: flex;
-    border-radius: 50%;
-    width: 9.5rem;
-    
-  }
-  
-  /*------------pagina god of war---------------*/
-  
-  
-  
-  .header-godofwar{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    height: fit-content; }
+  .home-second-half-container .contact-title {
+    font-size: 40px;
+    font-family: 'Antonio', sans-serif;
+    color: magenta;
+    text-shadow: 5px 5px 5px #000000;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    height: fit-content; }
+  .home-second-half-container .form-container {
     display: flex;
-    background-image: url("../images/fondo\ violet\ wave.jpg");
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../images/assasin creed oyssey.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
-  }
-  
-  .godofwargame{
-    display: flex;
-    justify-content:center;
-    background-size: cover;
-    background-image: url("../images/Gowlandscape.webp");
-    height: 50rem;
-  }
-  
-  .grid-content{
-    display: grid;
-    height: 60vh;
-    width: 100vh;
-      grid-template-columns:1fr 1fr ;
-    grid-template-rows:repeat(2,50%) ;
-      gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem;
-  }
-  .grid-content img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 25rem;
+    margin-top: 1rem;
     border-radius: 2%;
-  }
-  
-  .youtube-video{
+    height: 20rem; }
+    .home-second-half-container .form-container label {
+      color: white;
+      text-shadow: 5px 5px 5px magenta;
+      font-size: 1.5rem; }
+    .home-second-half-container .form-container input {
+      width: 15rem;
+      height: 2rem; }
+    .home-second-half-container .form-container .submit-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/fondo violet wave.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-weight: bolder;
+      opacity: 0.8;
+      width: 10rem;
+      height: 3rem;
+      color: white;
+      margin-top: 2rem;
+      margin-bottom: 1rem; }
+    .home-second-half-container .form-container #mensaje {
+      height: 6rem;
+      width: 15rem; }
+    .home-second-half-container .form-container .input-opaco {
+      opacity: 0.7;
+      background-color: white;
+      color: magenta;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+      .home-second-half-container .form-container .input-opaco::placeholder {
+        opacity: 1; }
+  .home-second-half-container .carousel {
     display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 2rem;
-  }
-  .youtube-video iframe{
-    margin-left: 5rem;
-  }
-  .steam-link{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    margin-left: 10rem;
+    margin: 10rem auto; }
+    .home-second-half-container .carousel img {
+      width: 50rem;
+      justify-items: center;
+      border-radius: 10%; }
+  .home-second-half-container .carousel-title {
+    font-size: 40px;
+    font-family: 'Antonio', sans-serif;
+    color: #9e0f9e;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    margin-top: 10rem; }
+
+.godofwargame {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../images/Gowlandscape.webp");
+  height: 50rem; }
+  .godofwargame .steam-link {
     display: flex;
     text-align: center;
     justify-content: center;
     margin-left: 4rem;
-    margin-top: 8rem;
-  }
-  .steam-link img{
-    width: 18rem;
-    border-radius: 80%;
-    box-shadow: 12px 12px 12px black;
-  }
-  
-  
-  
-  /* Pagina Hogwarts legacy */
-  
-  .header-hogwarts-legacy{
+    margin-top: 8rem; }
+    .godofwargame .steam-link img {
+      width: 18rem;
+      border-radius: 80%;
+      box-shadow: 12px 12px 12px black; }
+  .godofwargame .youtube-video {
     display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 2rem; }
+    .godofwargame .youtube-video iframe {
+      margin-left: 5rem; }
+
+.grid-content {
+  display: grid;
+  height: 60vh;
+  width: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 50%);
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-right: 10rem; }
+  .grid-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%; }
+
+.hogwarts-legacy-game {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../images/hogwarts legacy landscape.jpg");
+  height: 50rem; }
+  .hogwarts-legacy-game .steam-link {
+    display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    background-image: url("../images/fondo\ violet\ wave.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 1rem;
-   
-  }
-  .header-hogwarts-legacy img{
-    width: 25rem;
-  }
-  .hogwarts-legacy-game{
+    margin-left: 4rem;
+    margin-top: 8rem; }
+    .hogwarts-legacy-game .steam-link img {
+      width: 18rem;
+      border-radius: 80%;
+      box-shadow: 12px 12px 12px black; }
+  .hogwarts-legacy-game .youtube-video {
     display: flex;
-    justify-content:center;
-    background-size: cover;
-    background-image: url("../images/hogwarts\ legacy\ landscape.jpg");
-    height: 50rem;
-  }
-  
-  /* Little nightmares page */
-  .header-little-nightmares{
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 2rem; }
+    .hogwarts-legacy-game .youtube-video iframe {
+      margin-left: 5rem; }
+
+.grid-content {
+  display: grid;
+  height: 60vh;
+  width: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 50%);
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-right: 10rem; }
+  .grid-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%; }
+
+.resident-evil-game {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../images/resident evil 4 background.jpeg");
+  height: 50rem; }
+  .resident-evil-game .steam-link {
     display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    background-image: url("../images/fondo\ violet\ wave.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 1rem;
-   
-  }
-  
-  .header-little-nightmares img{
-    width: 15rem;
-  }
-  
-  .little-nightmares-game{
-      display: flex;
-      justify-content:center;
-      background-size: cover;
-      background-image: url("../images/little\ nightmares\ background.jpg");
-      height: 50rem;
-  }
-  
-  /* Resident evil page */
-  .header-resident-evil{
+    margin-left: 4rem;
+    margin-top: 8rem; }
+    .resident-evil-game .steam-link img {
+      width: 18rem;
+      border-radius: 80%;
+      box-shadow: 12px 12px 12px black; }
+  .resident-evil-game .youtube-video {
     display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 2rem; }
+    .resident-evil-game .youtube-video iframe {
+      margin-left: 5rem; }
+
+.grid-content {
+  display: grid;
+  height: 60vh;
+  width: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 50%);
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-right: 10rem; }
+  .grid-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%; }
+
+.little-nightmares-game {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../images/little nightmares background.jpg");
+  height: 50rem; }
+  .little-nightmares-game .steam-link {
+    display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    background-image: url("../images/fondo\ violet\ wave.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 1rem;
-   
-  }
-  
-  .header-resident-evil img{
-    width: 30rem;
-  }
-  
-  .resident-evil-game{
-      display: flex;
-      justify-content:center;
-      background-size: cover;
-      background-image: url("../images/resident\ evil\ 4\ background.jpeg");
-      height: 50rem;
-  }
-  
-  
-  
-  
-  /* index mobile section */
-  @media(max-width:768px){
-    .header-container{
-      flex-direction: column;
-    }
-    .nav-link {
-     margin-left: 2rem;
-     text-align: center;
-    }
+    margin-left: 4rem;
+    margin-top: 8rem; }
+    .little-nightmares-game .steam-link img {
+      width: 18rem;
+      border-radius: 80%;
+      box-shadow: 12px 12px 12px black; }
+  .little-nightmares-game .youtube-video {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 2rem; }
+    .little-nightmares-game .youtube-video iframe {
+      margin-left: 5rem; }
+
+.grid-content {
+  display: grid;
+  height: 60vh;
+  width: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 50%);
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-right: 10rem; }
+  .grid-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%; }
+
+@media (max-width: 768px) {
+  .nav-link {
+    margin-left: 2rem;
+    text-align: center; }
+  .home-title-container {
+    background-position: top; }
     .home-title-container h1 {
       text-align: center;
-      font-size: 2rem;
-    }
-    .home-title-container p{
+      font-size: 2rem; }
+    .home-title-container p {
       text-align: center;
-      font-size: 1.7rem;
-    }
-    .login-interface{
-      right: 1rem;
-      margin-top: 2rem;
-      
-    }
-    .home-title-container{
-      background-position:top;
-    }
-    .home-second-half-container p{
-      margin-top: 5rem;
-    }
-    .button-container{
-      gap: 3rem;
-    }
-    .carousel{
-      width: 95%;
-    }
-    
-    .search-input{
-      width: 15rem;
-    }
-    .footer-content{
-      justify-content: center;
-      flex-direction: column;
-      height: 5rem;
-     
-  
-    }
-    .social-content{
-     margin-top: 1rem;
-     justify-content: center;
-    }
-    .header-godofwar img{
-      width: 20rem;
-      background-image: cover;
-    }
-    
-  .godofwargame{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,20%);
-    place-items: center;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  } 
-  .hogwarts-legacy-game{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,20%);
-    place-items: center;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .little-nightmares-game{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,20%);
-    place-items: center;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .resident-evil-game{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,20%);
-    place-items: center;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .grid-content{
-    grid-template-columns:1fr;
-    grid-template-rows:repeat(1,20%) ;
-    gap: 3rem;
-    width: 15rem;
-    height: auto;
-    margin-left: 10rem;
-    margin-top: 28rem;
-  }
-  .steam-link {
-    position: absolute;
-    margin-top: 66rem;
-    margin-left: 9.5rem;
-    
-  }
-  .steam-link img {
-    width: 10rem;
-  }
-  .youtube-video iframe{
+      font-size: 1.7rem; }
+  .home-second-half-container p {
+    margin-top: 5rem; }
+  .home-second-half-container .button-container {
+    gap: 3rem; }
+  .home-second-half-container .carousel {
+    width: 95%; }
+  .home-second-half-container .footer-content {
+    justify-content: center;
     flex-direction: column;
-    width: 19.5rem;
-    height:11rem;
+    height: 5rem; }
+  .home-second-half-container .social-content {
     margin-top: 1rem;
-    
-  }
-  .form-container{
-    width: 19rem;
-  }
-  
-  }
-  
+    justify-content: center; }
+  .home-second-half-container .header-godofwar img {
+    width: 20rem;
+    background-image: cover; }
+  .home-second-half-container .form-container {
+    width: 19rem; }
+  .godofwargame, .hogwarts-legacy-game, .little-nightmares-game, .resident-evil-game {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 20%);
+    place-items: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .godofwargame .youtube-video iframe, .hogwarts-legacy-game .youtube-video iframe, .little-nightmares-game .youtube-video iframe, .resident-evil-game .youtube-video iframe {
+      flex-direction: column;
+      width: 19.5rem;
+      height: 11rem;
+      margin-top: 1rem; }
+    .godofwargame .grid-content, .hogwarts-legacy-game .grid-content, .little-nightmares-game .grid-content, .resident-evil-game .grid-content {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(1, 20%);
+      gap: 3rem;
+      width: 15rem;
+      height: auto;
+      margin-left: 10rem;
+      margin-top: 28rem; }
+    .godofwargame .steam-link, .hogwarts-legacy-game .steam-link, .little-nightmares-game .steam-link, .resident-evil-game .steam-link {
+      position: absolute;
+      margin-top: 66rem;
+      margin-left: 9.5rem; }
+    .godofwargame .steam-link img, .hogwarts-legacy-game .steam-link img, .little-nightmares-game .steam-link img, .resident-evil-game .steam-link img {
+      width: 10rem; } }
+
+.header-godofwar, .header-hogwarts-legacy, .header-little-nightmares, .header-resident-evil {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/fondo violet wave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem; }
+  .header-godofwar img, .header-hogwarts-legacy img, .header-little-nightmares img, .header-resident-evil img {
+    width: 25rem; }
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  height: 7rem;
+  background-color: #000000; }
+  .footer-content .social-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem; }
+    .footer-content .social-content img {
+      width: 3rem; }
