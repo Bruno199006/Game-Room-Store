@@ -180,25 +180,54 @@
         }
         
       }
-  
-  .grid-content{
-    display: grid;
-    grid-template-columns:1fr 1fr ;
-    grid-template-rows:repeat(2,48%) ;
-    gap: 1rem;
-    // margin-top: 2rem;
-    // margin-right: 10rem;
+      .grid-content {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 48%);
+        gap: 1rem;
+        
+        .img-uno {
+            perspective: 1000px;
+    
+            &:hover {
+                opacity: 1;
+                filter: blur(3px);
+                box-shadow: $box-shadow-animation; 
+    
+                + .img-text-one {  
+                    opacity: 5;
 
-    img{
-    // width: 100%;
-    // height: 100%;
-    // object-fit: cover;
-    border-radius: 5%;
+                    img{
+                      width:18rem;
+                      opacity: 1;
+                    }
+                }
+            }
+        }
+      }
+    
+        .img-text-one {
+            position: absolute;
+            text-align: center;
+            border-radius: 6px;
+            top: 20%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            color: $primary-color;
+            padding: 10px;
+            text-shadow: $text-shadow;
+            font-size: 20px;
+            transition: 1.5s;
+            img{
+              width: 18rem;
+            }
+        }
     }
     
-}
-  }
-  ////////////////////////////////////////////////
+  
+  
   
   ////////////Hogwarts legacy main  /////////////////////
    
@@ -233,24 +262,53 @@
         }
         
       }
-  }
-  .grid-content{
-    display: grid;
-    height: 60vh;
-    width: 100vh;
-      grid-template-columns:1fr 1fr ;
-    grid-template-rows:repeat(2,48%) ;
-      gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem;
+      .grid-content {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 48%);
+        gap: 1rem;
+        
+        .img-two {
+            perspective: 1000px;
+    
+            &:hover {
+                opacity: 1;
+                filter: blur(3px);
+                box-shadow: $box-shadow-animation; 
+    
+                + .img-text-two {  
+                    opacity: 5;
 
-    img{
-        width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2%;
+                    img{
+                      width:18rem;
+                      opacity: 1;
+                    }
+                }
+            }
+        }
+      }
+    
+        .img-text-two {
+            position: absolute;
+            text-align: center;
+            border-radius: 6px;
+            top: 20%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            color: $primary-color;
+            padding: 10px;
+            text-shadow: $text-shadow;
+            font-size: 20px;
+            transition: 1.5s;
+            img{
+              width: 18rem;
+            }
+        }
     }
-}
+ 
+  
 ////////////Resident evil main /////////////////////
 .resident-evil-game{
     display: flex;
@@ -444,4 +502,3 @@
   }
   } 
 }
-  
