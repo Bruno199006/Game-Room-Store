@@ -31,7 +31,7 @@
 .home-second-half-container{
     @include flex-positions;  
     @include vertical-direction;
-   @include background;
+    @include background;
     background-image: url("../images/fondo\ violet\ wave.jpg");
     
 
@@ -193,10 +193,10 @@
             &:hover {
                 opacity: 1;
                 filter: blur(3px);
-                box-shadow: $box-shadow-animation; 
+                
     
                 + .img-text-one {  
-                    opacity: 5;
+                    opacity: 1;
 
                     img{
                       width:18rem;
@@ -215,14 +215,14 @@
             left: 25%;
             transform: translate(-50%, -50%);
             opacity: 0;
-            color: $primary-color;
             padding: 10px;
-            text-shadow: $text-shadow;
             font-size: 20px;
             transition: 1.5s;
+            color: $third-color;
             img{
               width: 18rem;
             }
+            
         }
     }
     
@@ -297,11 +297,14 @@
             left: 25%;
             transform: translate(-50%, -50%);
             opacity: 0;
-            color: $primary-color;
+            color: $third-color;
             padding: 10px;
             text-shadow: $text-shadow;
             font-size: 20px;
             transition: 1.5s;
+            p{
+              margin-top: 1rem;
+            }
             img{
               width: 18rem;
             }
