@@ -47,7 +47,7 @@
         text-align: center;
         font-size: 4rem;
     }
-    ////Index form////
+          ////Index form////
     .form-box{
         @include flex-positions;
         margin-bottom: 1rem;
@@ -114,10 +114,10 @@
     .carousel-title{
        @extend %carousel-font-config;
     }
-}///////////////////////////////
+}                 ////////
 
 
-////////////////God of war main///////////////////
+            ////God of war main////
 
 .godofwargame{
     display: flex;
@@ -160,8 +160,10 @@
           @include image-text-animation-config(70%,75%);
         }
 
-    }
-  ////////////Hogwarts legacy main  /////////////////////
+    }                   ////////
+
+
+               ////Hogwarts legacy main  ////
    
   .hogwarts-legacy-game{
     display: flex;
@@ -205,10 +207,11 @@
         .img-text-four{
           @include image-text-animation-config(70%,75%)
         }
-    }
+    }                  ///////
  
   
-////////////Resident evil main /////////////////////
+              ////Resident evil main ////
+              
 .resident-evil-game{
     display: flex;
     justify-content:center;
@@ -237,7 +240,7 @@
           }
       }
   }
-}
+}            
 
 .img-text-one {
   @include image-text-animation-config(20%,25%)
@@ -251,9 +254,10 @@
 .img-text-four{
 @include image-text-animation-config(70%,75%)
 }
-}
+}               ////////
 
-////////////Little nightmares main /////////////////////
+     ////////Little nightmares main ///////
+    
 .little-nightmares-game{
     display: flex;
     justify-content:center;
@@ -294,8 +298,10 @@
   .img-text-four{
   @include image-text-animation-config(70%,75%)
   }
-}
-    /////Mobile section////
+}               ///////
+
+        /////Mobile section////
+        
 @media(max-width:768px){
     .nav-link {
      margin-left: 2rem;
@@ -353,22 +359,13 @@
     @include grid-config-mobile;
     
     .youtube-video {
-        iframe{
-            flex-direction: column;
-            width: 19.5rem;
-            height:11rem;
-            margin-top: 1rem;
-        }
+        @include youtube-video-config-mobile
    
     }
    .grid-content{
-    grid-template-columns:1fr;
-    grid-template-rows:repeat(2,20%) ;
-    gap: 3rem;
-    width: 15rem;
-    height: auto;
-    margin-left: 10rem;
-    margin-top: 28rem;
+   @include grid-content-mobile;
+
+
     .img-text-one {
       @include image-text-animation-config(10%,50%);
     }

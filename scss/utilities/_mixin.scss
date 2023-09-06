@@ -42,6 +42,7 @@
     border-radius: 2%;
     }
 }
+
 @mixin image-text-animation-config($top,$left){
     position: absolute;
     text-align: center;
@@ -109,3 +110,22 @@
     background-position: center;
     
 }
+///mobile mixin config///
+@mixin grid-content-mobile{
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(2,20%) ;
+    gap: 3rem;
+    width: 15rem;
+    height: auto;
+    margin-left: 10rem;
+    margin-top: 28rem;
+}
+@mixin youtube-video-config-mobile{
+    iframe{
+        flex-direction: column;
+        width: 19.5rem;
+        height:11rem;
+        margin-top: 1rem;
+    }
+}
+/////////////////////////
