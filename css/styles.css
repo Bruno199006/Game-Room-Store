@@ -1,10 +1,10 @@
-.godofwargame .grid-content .img-one:hover, .godofwargame .grid-content .img-two:hover, .hogwarts-legacy-game .grid-content .img-one:hover {
+.godofwargame .grid-content .img-one:hover, .godofwargame .grid-content .img-two:hover, .godofwargame .grid-content .img-three:hover, .godofwargame .grid-content .img-four:hover, .hogwarts-legacy-game .grid-content .img-one:hover {
   opacity: 1;
   filter: blur(3px); }
 
-.godofwargame .grid-content .img-one:hover + .img-text-one, .godofwargame .grid-content .img-one:hover + .img-text-two, .godofwargame .grid-content .img-two:hover + .img-text-one, .godofwargame .grid-content .img-two:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one {
+.godofwargame .grid-content .img-one:hover + .img-text-one, .godofwargame .grid-content .img-one:hover + .img-text-two, .godofwargame .grid-content .img-one:hover + .img-text-three, .godofwargame .grid-content .img-one:hover + .img-text-four, .godofwargame .grid-content .img-two:hover + .img-text-one, .godofwargame .grid-content .img-two:hover + .img-text-two, .godofwargame .grid-content .img-two:hover + .img-text-three, .godofwargame .grid-content .img-two:hover + .img-text-four, .godofwargame .grid-content .img-three:hover + .img-text-one, .godofwargame .grid-content .img-three:hover + .img-text-two, .godofwargame .grid-content .img-three:hover + .img-text-three, .godofwargame .grid-content .img-three:hover + .img-text-four, .godofwargame .grid-content .img-four:hover + .img-text-one, .godofwargame .grid-content .img-four:hover + .img-text-two, .godofwargame .grid-content .img-four:hover + .img-text-three, .godofwargame .grid-content .img-four:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one {
   opacity: 5; }
-  .godofwargame .grid-content .img-one:hover + .img-text-one img, .godofwargame .grid-content .img-one:hover + .img-text-two img, .godofwargame .grid-content .img-two:hover + .img-text-one img, .godofwargame .grid-content .img-two:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one img {
+  .godofwargame .grid-content .img-one:hover + .img-text-one img, .godofwargame .grid-content .img-one:hover + .img-text-two img, .godofwargame .grid-content .img-one:hover + .img-text-three img, .godofwargame .grid-content .img-one:hover + .img-text-four img, .godofwargame .grid-content .img-two:hover + .img-text-one img, .godofwargame .grid-content .img-two:hover + .img-text-two img, .godofwargame .grid-content .img-two:hover + .img-text-three img, .godofwargame .grid-content .img-two:hover + .img-text-four img, .godofwargame .grid-content .img-three:hover + .img-text-one img, .godofwargame .grid-content .img-three:hover + .img-text-two img, .godofwargame .grid-content .img-three:hover + .img-text-three img, .godofwargame .grid-content .img-three:hover + .img-text-four img, .godofwargame .grid-content .img-four:hover + .img-text-one img, .godofwargame .grid-content .img-four:hover + .img-text-two img, .godofwargame .grid-content .img-four:hover + .img-text-three img, .godofwargame .grid-content .img-four:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one img {
     width: 18rem;
     opacity: 1; }
 
@@ -171,7 +171,7 @@ body {
     .home-second-half-container .carousel img {
       width: 50rem;
       justify-items: center;
-      border-radius: 10%; }
+      border-radius: 2%; }
 
 .godofwargame {
   display: flex;
@@ -202,7 +202,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 48%);
     gap: 1rem; }
-    .godofwargame .grid-content .img-one, .godofwargame .grid-content .img-two {
+    .godofwargame .grid-content .img-one, .godofwargame .grid-content .img-two, .godofwargame .grid-content .img-three, .godofwargame .grid-content .img-four {
       perspective: 1000px; }
   .godofwargame .img-text-one {
     position: absolute;
@@ -227,7 +227,7 @@ body {
     text-align: center;
     border-radius: 6px;
     top: 20%;
-    left: 75%;
+    left: 77%;
     transform: translate(-50%, -50%);
     opacity: 0;
     pointer-events: none;
@@ -239,6 +239,42 @@ body {
     .godofwargame .img-text-two p {
       margin-top: 1rem; }
     .godofwargame .img-text-two img {
+      width: 18rem; }
+  .godofwargame .img-text-three {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .godofwargame .img-text-three p {
+      margin-top: 1rem; }
+    .godofwargame .img-text-three img {
+      width: 18rem; }
+  .godofwargame .img-text-four {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .godofwargame .img-text-four p {
+      margin-top: 1rem; }
+    .godofwargame .img-text-four img {
       width: 18rem; }
 
 .hogwarts-legacy-game {

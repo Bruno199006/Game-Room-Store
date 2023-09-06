@@ -31,12 +31,12 @@
     grid-template-rows: repeat(2, 48%);
     gap: 1rem;
 }
-@mixin image-text-animation-config{
+@mixin image-text-animation-config($top,$left){
     position: absolute;
     text-align: center;
     border-radius: 6px;
-    top: 20%;
-    left: 25%;
+    top:$top; //20%;
+    left:$left; //25%;
     transform: translate(-50%, -50%);
     opacity: 0;
     pointer-events: none;
@@ -52,27 +52,7 @@
       width: 18rem;
     }
 }
-@mixin image-text-animation-2{
-    position: absolute;
-          text-align: center;
-          border-radius: 6px;
-          top: 20%;
-          left: 75%;
-          transform: translate(-50%, -50%);
-          opacity: 0;
-          pointer-events: none;
-          color: $third-color;
-          padding: 10px;
-          text-shadow: $text-shadow;
-          font-size: 20px;
-          transition: 1.5s;
-          p{
-            margin-top: 1rem;
-          }
-          img{
-            width: 18rem;
-          }
-}
+
 @mixin index-games-button-config{
     display: flex;
     flex-wrap: wrap;

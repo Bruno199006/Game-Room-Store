@@ -106,7 +106,7 @@
     img{
         width: 50rem;
     justify-items: center;
-    border-radius: 10%;
+    border-radius: 2%;
     }
 
 
@@ -135,11 +135,11 @@
       }
       .grid-content {
         @include grid-content;
-        .img-one,.img-two {
+        .img-one,.img-two,.img-three,.img-four {
             perspective: 1000px;
             &:hover {
                 @extend %hover-properties;
-               + .img-text-one,+.img-text-two { 
+               + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four { 
                     
                 @extend %hover-positions;
                 }
@@ -147,12 +147,19 @@
         }
       }
         .img-text-one{
-            @include image-text-animation-config
+            @include image-text-animation-config(20%,25%);
        
         }
         .img-text-two{
-          @include image-text-animation-2
+          @include image-text-animation-config(20%,77%);
         }
+        .img-text-three{
+          @include image-text-animation-config(70%,25%);
+        }
+        .img-text-four{
+          @include image-text-animation-config(70%,75%);
+        }
+
     }
   ////////////Hogwarts legacy main  /////////////////////
    
@@ -187,7 +194,7 @@
       }
     
         .img-text-one {
-            @include image-text-animation-config
+            @include image-text-animation-config(20%,25%)
         }
     }
  
