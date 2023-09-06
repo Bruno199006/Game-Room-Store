@@ -369,7 +369,19 @@
     height: auto;
     margin-left: 10rem;
     margin-top: 28rem;
-  }
+    .img-text-one {
+      @include image-text-animation-config(10%,50%);
+    }
+    .img-text-two{
+    @include image-text-animation-config(37%,50%);
+    }
+    .img-text-three{
+    @include image-text-animation-config(64%,50%);
+    }
+    .img-text-four{
+    @include image-text-animation-config(91%,50%);
+    }
+   }
   .steam-link {
     position: absolute;
     margin-top: 66rem;

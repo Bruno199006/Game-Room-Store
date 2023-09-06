@@ -675,6 +675,78 @@ body {
       height: auto;
       margin-left: 10rem;
       margin-top: 28rem; }
+      .godofwargame .grid-content .img-text-one, .hogwarts-legacy-game .grid-content .img-text-one, .little-nightmares-game .grid-content .img-text-one, .resident-evil-game .grid-content .img-text-one {
+        position: absolute;
+        text-align: center;
+        border-radius: 6px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+        color: white;
+        padding: 10px;
+        text-shadow: 5px 5px 5px #000000;
+        font-size: 20px;
+        transition: 1.5s; }
+        .godofwargame .grid-content .img-text-one p, .hogwarts-legacy-game .grid-content .img-text-one p, .little-nightmares-game .grid-content .img-text-one p, .resident-evil-game .grid-content .img-text-one p {
+          margin-top: 1rem; }
+        .godofwargame .grid-content .img-text-one img, .hogwarts-legacy-game .grid-content .img-text-one img, .little-nightmares-game .grid-content .img-text-one img, .resident-evil-game .grid-content .img-text-one img {
+          width: 18rem; }
+      .godofwargame .grid-content .img-text-two, .hogwarts-legacy-game .grid-content .img-text-two, .little-nightmares-game .grid-content .img-text-two, .resident-evil-game .grid-content .img-text-two {
+        position: absolute;
+        text-align: center;
+        border-radius: 6px;
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+        color: white;
+        padding: 10px;
+        text-shadow: 5px 5px 5px #000000;
+        font-size: 20px;
+        transition: 1.5s; }
+        .godofwargame .grid-content .img-text-two p, .hogwarts-legacy-game .grid-content .img-text-two p, .little-nightmares-game .grid-content .img-text-two p, .resident-evil-game .grid-content .img-text-two p {
+          margin-top: 1rem; }
+        .godofwargame .grid-content .img-text-two img, .hogwarts-legacy-game .grid-content .img-text-two img, .little-nightmares-game .grid-content .img-text-two img, .resident-evil-game .grid-content .img-text-two img {
+          width: 18rem; }
+      .godofwargame .grid-content .img-text-three, .hogwarts-legacy-game .grid-content .img-text-three, .little-nightmares-game .grid-content .img-text-three, .resident-evil-game .grid-content .img-text-three {
+        position: absolute;
+        text-align: center;
+        border-radius: 6px;
+        top: 64%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+        color: white;
+        padding: 10px;
+        text-shadow: 5px 5px 5px #000000;
+        font-size: 20px;
+        transition: 1.5s; }
+        .godofwargame .grid-content .img-text-three p, .hogwarts-legacy-game .grid-content .img-text-three p, .little-nightmares-game .grid-content .img-text-three p, .resident-evil-game .grid-content .img-text-three p {
+          margin-top: 1rem; }
+        .godofwargame .grid-content .img-text-three img, .hogwarts-legacy-game .grid-content .img-text-three img, .little-nightmares-game .grid-content .img-text-three img, .resident-evil-game .grid-content .img-text-three img {
+          width: 18rem; }
+      .godofwargame .grid-content .img-text-four, .hogwarts-legacy-game .grid-content .img-text-four, .little-nightmares-game .grid-content .img-text-four, .resident-evil-game .grid-content .img-text-four {
+        position: absolute;
+        text-align: center;
+        border-radius: 6px;
+        top: 91%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+        color: white;
+        padding: 10px;
+        text-shadow: 5px 5px 5px #000000;
+        font-size: 20px;
+        transition: 1.5s; }
+        .godofwargame .grid-content .img-text-four p, .hogwarts-legacy-game .grid-content .img-text-four p, .little-nightmares-game .grid-content .img-text-four p, .resident-evil-game .grid-content .img-text-four p {
+          margin-top: 1rem; }
+        .godofwargame .grid-content .img-text-four img, .hogwarts-legacy-game .grid-content .img-text-four img, .little-nightmares-game .grid-content .img-text-four img, .resident-evil-game .grid-content .img-text-four img {
+          width: 18rem; }
     .godofwargame .steam-link, .hogwarts-legacy-game .steam-link, .little-nightmares-game .steam-link, .resident-evil-game .steam-link {
       position: absolute;
       margin-top: 66rem;
