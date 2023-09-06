@@ -1,10 +1,10 @@
-.godofwargame .grid-content .img-one:hover, .godofwargame .grid-content .img-two:hover, .godofwargame .grid-content .img-three:hover, .godofwargame .grid-content .img-four:hover, .hogwarts-legacy-game .grid-content .img-one:hover {
+.godofwargame .grid-content .img-one:hover, .godofwargame .grid-content .img-two:hover, .godofwargame .grid-content .img-three:hover, .godofwargame .grid-content .img-four:hover, .hogwarts-legacy-game .grid-content .img-one:hover, .hogwarts-legacy-game .grid-content .img-two:hover, .hogwarts-legacy-game .grid-content .img-three:hover, .hogwarts-legacy-game .grid-content .img-four:hover, .resident-evil-game .grid-content .img-one:hover, .resident-evil-game .grid-content .img-two:hover, .resident-evil-game .grid-content .img-three:hover, .resident-evil-game .grid-content .img-four:hover, .grid-content .img-one:hover, .grid-content .img-two:hover, .grid-content .img-three:hover, .grid-content .img-four:hover {
   opacity: 1;
   filter: blur(3px); }
 
-.godofwargame .grid-content .img-one:hover + .img-text-one, .godofwargame .grid-content .img-one:hover + .img-text-two, .godofwargame .grid-content .img-one:hover + .img-text-three, .godofwargame .grid-content .img-one:hover + .img-text-four, .godofwargame .grid-content .img-two:hover + .img-text-one, .godofwargame .grid-content .img-two:hover + .img-text-two, .godofwargame .grid-content .img-two:hover + .img-text-three, .godofwargame .grid-content .img-two:hover + .img-text-four, .godofwargame .grid-content .img-three:hover + .img-text-one, .godofwargame .grid-content .img-three:hover + .img-text-two, .godofwargame .grid-content .img-three:hover + .img-text-three, .godofwargame .grid-content .img-three:hover + .img-text-four, .godofwargame .grid-content .img-four:hover + .img-text-one, .godofwargame .grid-content .img-four:hover + .img-text-two, .godofwargame .grid-content .img-four:hover + .img-text-three, .godofwargame .grid-content .img-four:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one {
+.godofwargame .grid-content .img-one:hover + .img-text-one, .godofwargame .grid-content .img-one:hover + .img-text-two, .godofwargame .grid-content .img-one:hover + .img-text-three, .godofwargame .grid-content .img-one:hover + .img-text-four, .godofwargame .grid-content .img-two:hover + .img-text-one, .godofwargame .grid-content .img-two:hover + .img-text-two, .godofwargame .grid-content .img-two:hover + .img-text-three, .godofwargame .grid-content .img-two:hover + .img-text-four, .godofwargame .grid-content .img-three:hover + .img-text-one, .godofwargame .grid-content .img-three:hover + .img-text-two, .godofwargame .grid-content .img-three:hover + .img-text-three, .godofwargame .grid-content .img-three:hover + .img-text-four, .godofwargame .grid-content .img-four:hover + .img-text-one, .godofwargame .grid-content .img-four:hover + .img-text-two, .godofwargame .grid-content .img-four:hover + .img-text-three, .godofwargame .grid-content .img-four:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-four, .resident-evil-game .grid-content .img-one:hover + .img-text-one, .resident-evil-game .grid-content .img-one:hover + .img-text-two, .resident-evil-game .grid-content .img-one:hover + .img-text-three, .resident-evil-game .grid-content .img-one:hover + .img-text-four, .resident-evil-game .grid-content .img-two:hover + .img-text-one, .resident-evil-game .grid-content .img-two:hover + .img-text-two, .resident-evil-game .grid-content .img-two:hover + .img-text-three, .resident-evil-game .grid-content .img-two:hover + .img-text-four, .resident-evil-game .grid-content .img-three:hover + .img-text-one, .resident-evil-game .grid-content .img-three:hover + .img-text-two, .resident-evil-game .grid-content .img-three:hover + .img-text-three, .resident-evil-game .grid-content .img-three:hover + .img-text-four, .resident-evil-game .grid-content .img-four:hover + .img-text-one, .resident-evil-game .grid-content .img-four:hover + .img-text-two, .resident-evil-game .grid-content .img-four:hover + .img-text-three, .resident-evil-game .grid-content .img-four:hover + .img-text-four, .grid-content .img-one:hover + .img-text-one, .grid-content .img-one:hover + .img-text-two, .grid-content .img-one:hover + .img-text-three, .grid-content .img-one:hover + .img-text-four, .grid-content .img-two:hover + .img-text-one, .grid-content .img-two:hover + .img-text-two, .grid-content .img-two:hover + .img-text-three, .grid-content .img-two:hover + .img-text-four, .grid-content .img-three:hover + .img-text-one, .grid-content .img-three:hover + .img-text-two, .grid-content .img-three:hover + .img-text-three, .grid-content .img-three:hover + .img-text-four, .grid-content .img-four:hover + .img-text-one, .grid-content .img-four:hover + .img-text-two, .grid-content .img-four:hover + .img-text-three, .grid-content .img-four:hover + .img-text-four {
   opacity: 5; }
-  .godofwargame .grid-content .img-one:hover + .img-text-one img, .godofwargame .grid-content .img-one:hover + .img-text-two img, .godofwargame .grid-content .img-one:hover + .img-text-three img, .godofwargame .grid-content .img-one:hover + .img-text-four img, .godofwargame .grid-content .img-two:hover + .img-text-one img, .godofwargame .grid-content .img-two:hover + .img-text-two img, .godofwargame .grid-content .img-two:hover + .img-text-three img, .godofwargame .grid-content .img-two:hover + .img-text-four img, .godofwargame .grid-content .img-three:hover + .img-text-one img, .godofwargame .grid-content .img-three:hover + .img-text-two img, .godofwargame .grid-content .img-three:hover + .img-text-three img, .godofwargame .grid-content .img-three:hover + .img-text-four img, .godofwargame .grid-content .img-four:hover + .img-text-one img, .godofwargame .grid-content .img-four:hover + .img-text-two img, .godofwargame .grid-content .img-four:hover + .img-text-three img, .godofwargame .grid-content .img-four:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one img {
+  .godofwargame .grid-content .img-one:hover + .img-text-one img, .godofwargame .grid-content .img-one:hover + .img-text-two img, .godofwargame .grid-content .img-one:hover + .img-text-three img, .godofwargame .grid-content .img-one:hover + .img-text-four img, .godofwargame .grid-content .img-two:hover + .img-text-one img, .godofwargame .grid-content .img-two:hover + .img-text-two img, .godofwargame .grid-content .img-two:hover + .img-text-three img, .godofwargame .grid-content .img-two:hover + .img-text-four img, .godofwargame .grid-content .img-three:hover + .img-text-one img, .godofwargame .grid-content .img-three:hover + .img-text-two img, .godofwargame .grid-content .img-three:hover + .img-text-three img, .godofwargame .grid-content .img-three:hover + .img-text-four img, .godofwargame .grid-content .img-four:hover + .img-text-one img, .godofwargame .grid-content .img-four:hover + .img-text-two img, .godofwargame .grid-content .img-four:hover + .img-text-three img, .godofwargame .grid-content .img-four:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-four img, .resident-evil-game .grid-content .img-one:hover + .img-text-one img, .resident-evil-game .grid-content .img-one:hover + .img-text-two img, .resident-evil-game .grid-content .img-one:hover + .img-text-three img, .resident-evil-game .grid-content .img-one:hover + .img-text-four img, .resident-evil-game .grid-content .img-two:hover + .img-text-one img, .resident-evil-game .grid-content .img-two:hover + .img-text-two img, .resident-evil-game .grid-content .img-two:hover + .img-text-three img, .resident-evil-game .grid-content .img-two:hover + .img-text-four img, .resident-evil-game .grid-content .img-three:hover + .img-text-one img, .resident-evil-game .grid-content .img-three:hover + .img-text-two img, .resident-evil-game .grid-content .img-three:hover + .img-text-three img, .resident-evil-game .grid-content .img-three:hover + .img-text-four img, .resident-evil-game .grid-content .img-four:hover + .img-text-one img, .resident-evil-game .grid-content .img-four:hover + .img-text-two img, .resident-evil-game .grid-content .img-four:hover + .img-text-three img, .resident-evil-game .grid-content .img-four:hover + .img-text-four img, .grid-content .img-one:hover + .img-text-one img, .grid-content .img-one:hover + .img-text-two img, .grid-content .img-one:hover + .img-text-three img, .grid-content .img-one:hover + .img-text-four img, .grid-content .img-two:hover + .img-text-one img, .grid-content .img-two:hover + .img-text-two img, .grid-content .img-two:hover + .img-text-three img, .grid-content .img-two:hover + .img-text-four img, .grid-content .img-three:hover + .img-text-one img, .grid-content .img-three:hover + .img-text-two img, .grid-content .img-three:hover + .img-text-three img, .grid-content .img-three:hover + .img-text-four img, .grid-content .img-four:hover + .img-text-one img, .grid-content .img-four:hover + .img-text-two img, .grid-content .img-four:hover + .img-text-three img, .grid-content .img-four:hover + .img-text-four img {
     width: 18rem;
     opacity: 1; }
 
@@ -46,8 +46,7 @@ body {
 .nav-link {
   color: white; }
   .nav-link:hover {
-    color: magenta;
-    background-color: transparent; }
+    color: magenta; }
 
 .container-fluid button {
   background-color: magenta;
@@ -56,11 +55,9 @@ body {
 .container-fluid .shop-icon {
   display: flex;
   align-items: center;
-  color: white;
-  background-color: transparent; }
+  color: white; }
   .container-fluid .shop-icon:hover {
-    color: magenta;
-    background-color: transparent; }
+    color: magenta; }
   .container-fluid .shop-icon img {
     width: 4.5rem; }
 
@@ -199,9 +196,18 @@ body {
   .godofwargame .grid-content {
     position: relative;
     display: grid;
+    height: 60vh;
+    width: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 48%);
-    gap: 1rem; }
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem; }
+    .godofwargame .grid-content img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 2%; }
     .godofwargame .grid-content .img-one, .godofwargame .grid-content .img-two, .godofwargame .grid-content .img-three, .godofwargame .grid-content .img-four {
       perspective: 1000px; }
   .godofwargame .img-text-one {
@@ -303,10 +309,19 @@ body {
   .hogwarts-legacy-game .grid-content {
     position: relative;
     display: grid;
+    height: 60vh;
+    width: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 48%);
-    gap: 1rem; }
-    .hogwarts-legacy-game .grid-content .img-one {
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem; }
+    .hogwarts-legacy-game .grid-content img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 2%; }
+    .hogwarts-legacy-game .grid-content .img-one, .hogwarts-legacy-game .grid-content .img-two, .hogwarts-legacy-game .grid-content .img-three, .hogwarts-legacy-game .grid-content .img-four {
       perspective: 1000px; }
   .hogwarts-legacy-game .img-text-one {
     position: absolute;
@@ -325,6 +340,60 @@ body {
     .hogwarts-legacy-game .img-text-one p {
       margin-top: 1rem; }
     .hogwarts-legacy-game .img-text-one img {
+      width: 18rem; }
+  .hogwarts-legacy-game .img-text-two {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .hogwarts-legacy-game .img-text-two p {
+      margin-top: 1rem; }
+    .hogwarts-legacy-game .img-text-two img {
+      width: 18rem; }
+  .hogwarts-legacy-game .img-text-three {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .hogwarts-legacy-game .img-text-three p {
+      margin-top: 1rem; }
+    .hogwarts-legacy-game .img-text-three img {
+      width: 18rem; }
+  .hogwarts-legacy-game .img-text-four {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .hogwarts-legacy-game .img-text-four p {
+      margin-top: 1rem; }
+    .hogwarts-legacy-game .img-text-four img {
       width: 18rem; }
 
 .resident-evil-game {
@@ -350,21 +419,95 @@ body {
     margin-top: 2rem; }
     .resident-evil-game .youtube-video iframe {
       margin-left: 5rem; }
-
-.grid-content {
-  display: grid;
-  height: 60vh;
-  width: 100vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 48%);
-  gap: 1rem;
-  margin-top: 2rem;
-  margin-right: 10rem; }
-  .grid-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2%; }
+  .resident-evil-game .grid-content {
+    position: relative;
+    display: grid;
+    height: 60vh;
+    width: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 48%);
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 10rem; }
+    .resident-evil-game .grid-content img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 2%; }
+    .resident-evil-game .grid-content .img-one, .resident-evil-game .grid-content .img-two, .resident-evil-game .grid-content .img-three, .resident-evil-game .grid-content .img-four {
+      perspective: 1000px; }
+  .resident-evil-game .img-text-one {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .resident-evil-game .img-text-one p {
+      margin-top: 1rem; }
+    .resident-evil-game .img-text-one img {
+      width: 18rem; }
+  .resident-evil-game .img-text-two {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .resident-evil-game .img-text-two p {
+      margin-top: 1rem; }
+    .resident-evil-game .img-text-two img {
+      width: 18rem; }
+  .resident-evil-game .img-text-three {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .resident-evil-game .img-text-three p {
+      margin-top: 1rem; }
+    .resident-evil-game .img-text-three img {
+      width: 18rem; }
+  .resident-evil-game .img-text-four {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .resident-evil-game .img-text-four p {
+      margin-top: 1rem; }
+    .resident-evil-game .img-text-four img {
+      width: 18rem; }
 
 .little-nightmares-game {
   display: flex;
@@ -374,14 +517,14 @@ body {
   height: 50rem; }
   .little-nightmares-game .steam-link {
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     margin-left: 4rem;
     margin-top: 8rem; }
     .little-nightmares-game .steam-link img {
       width: 18rem;
       border-radius: 80%;
-      box-shadow: 12px 12px 12px black; }
+      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
   .little-nightmares-game .youtube-video {
     display: flex;
     flex-direction: column;
@@ -391,6 +534,7 @@ body {
       margin-left: 5rem; }
 
 .grid-content {
+  position: relative;
   display: grid;
   height: 60vh;
   width: 100vh;
@@ -404,6 +548,80 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 2%; }
+  .grid-content .img-one, .grid-content .img-two, .grid-content .img-three, .grid-content .img-four {
+    perspective: 1000px; }
+  .grid-content .img-text-one {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .grid-content .img-text-one p {
+      margin-top: 1rem; }
+    .grid-content .img-text-one img {
+      width: 18rem; }
+  .grid-content .img-text-two {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .grid-content .img-text-two p {
+      margin-top: 1rem; }
+    .grid-content .img-text-two img {
+      width: 18rem; }
+  .grid-content .img-text-three {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .grid-content .img-text-three p {
+      margin-top: 1rem; }
+    .grid-content .img-text-three img {
+      width: 18rem; }
+  .grid-content .img-text-four {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .grid-content .img-text-four p {
+      margin-top: 1rem; }
+    .grid-content .img-text-four img {
+      width: 18rem; }
 
 @media (max-width: 768px) {
   .nav-link {

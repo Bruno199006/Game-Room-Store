@@ -181,12 +181,12 @@
       .grid-content {
         @include grid-content;
         
-        .img-one {
+        .img-one,.img-two,.img-three,.img-four {
             perspective: 1000px;
     
             &:hover {
                @extend %hover-properties;
-                + .img-text-one {  
+                + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four {  
                    @extend %hover-positions;
                 }
             }
@@ -195,6 +195,15 @@
     
         .img-text-one {
             @include image-text-animation-config(20%,25%)
+        }
+        .img-text-two{
+          @include image-text-animation-config(20%,77%)
+        }
+        .img-text-three{
+          @include image-text-animation-config(70%,25%)
+        }
+        .img-text-four{
+          @include image-text-animation-config(70%,75%)
         }
     }
  
@@ -212,34 +221,38 @@
         @include steam-link-config;
       }
       .youtube-video{
-        display: flex;
-        flex-direction: column;
-        margin-right: 5rem;
-        margin-top: 2rem;
+       @include youtube-config;
+      }
+  
+  .grid-content{
 
-        iframe{
-            margin-left: 5rem;
-        }
-        
+    @include grid-content;
+    .img-one,.img-two,.img-three,.img-four {
+      perspective: 1000px;
+
+      &:hover {
+         @extend %hover-properties;
+          + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four {  
+             @extend %hover-positions;
+          }
       }
   }
-  .grid-content{
-    display: grid;
-    height: 60vh;
-    width: 100vh;
-      grid-template-columns:1fr 1fr ;
-    grid-template-rows:repeat(2,48%) ;
-      gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem;
-
-    img{
-        width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2%;
-    }
 }
+
+.img-text-one {
+  @include image-text-animation-config(20%,25%)
+}
+.img-text-two{
+@include image-text-animation-config(20%,77%)
+}
+.img-text-three{
+@include image-text-animation-config(70%,25%)
+}
+.img-text-four{
+@include image-text-animation-config(70%,75%)
+}
+}
+
 ////////////Little nightmares main /////////////////////
 .little-nightmares-game{
     display: flex;
@@ -249,46 +262,38 @@
     height: 50rem;
 
     .steam-link{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        margin-left: 4rem;
-        margin-top: 8rem;
-
-        img{
-            width: 18rem;
-    border-radius: 80%;
-    box-shadow: 12px 12px 12px black;
-        }
+      @include flex-positions;
+       @include steam-link-config;
       }
       .youtube-video{
-        display: flex;
-        flex-direction: column;
-        margin-right: 5rem;
-        margin-top: 2rem;
-
-        iframe{
-            margin-left: 5rem;
-        }
+       @include youtube-config
         
       }
   }
   .grid-content{
-    display: grid;
-    height: 60vh;
-    width: 100vh;
-      grid-template-columns:1fr 1fr ;
-    grid-template-rows:repeat(2,48%) ;
-      gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem;
+    @include grid-content;
+    .img-one,.img-two,.img-three,.img-four {
+      perspective: 1000px;
 
-    img{
-        width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2%;
-    }
+      &:hover {
+         @extend %hover-properties;
+          + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four {  
+             @extend %hover-positions;
+          }
+      }
+  }
+  .img-text-one {
+    @include image-text-animation-config(20%,25%)
+  }
+  .img-text-two{
+  @include image-text-animation-config(20%,77%)
+  }
+  .img-text-three{
+  @include image-text-animation-config(70%,25%)
+  }
+  .img-text-four{
+  @include image-text-animation-config(70%,75%)
+  }
 }
     /////Mobile section////
 @media(max-width:768px){
@@ -345,14 +350,7 @@
   }
 
 .godofwargame, .hogwarts-legacy-game, .little-nightmares-game, .resident-evil-game{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,20%);
-    place-items: center;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include grid-config-mobile;
     
     .youtube-video {
         iframe{
