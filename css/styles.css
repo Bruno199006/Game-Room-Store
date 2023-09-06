@@ -1,3 +1,40 @@
+.godofwargame .grid-content .img-one:hover, .godofwargame .grid-content .img-two:hover, .hogwarts-legacy-game .grid-content .img-one:hover {
+  opacity: 1;
+  filter: blur(3px); }
+
+.godofwargame .grid-content .img-one:hover + .img-text-one, .godofwargame .grid-content .img-one:hover + .img-text-two, .godofwargame .grid-content .img-two:hover + .img-text-one, .godofwargame .grid-content .img-two:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one {
+  opacity: 5; }
+  .godofwargame .grid-content .img-one:hover + .img-text-one img, .godofwargame .grid-content .img-one:hover + .img-text-two img, .godofwargame .grid-content .img-two:hover + .img-text-one img, .godofwargame .grid-content .img-two:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one img {
+    width: 18rem;
+    opacity: 1; }
+
+.home-second-half-container .contact-title {
+  font-size: 40px;
+  font-family: 'Antonio', sans-serif;
+  color: magenta;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  height: fit-content; }
+
+.home-second-half-container .carousel-title {
+  font-size: 40px;
+  font-family: 'Antonio', sans-serif;
+  color: #9e0f9e;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  margin-top: 10rem; }
+
+.home-second-half-container .form-container .input-opaco {
+  opacity: 0.7;
+  background-color: white;
+  color: magenta;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .home-second-half-container .form-container .input-opaco::placeholder {
+    opacity: 1; }
+
 * {
   padding: 0;
   margin: 0;
@@ -84,15 +121,6 @@ body {
     align-items: center;
     margin-bottom: 1rem;
     height: fit-content; }
-  .home-second-half-container .contact-title {
-    font-size: 40px;
-    font-family: 'Antonio', sans-serif;
-    color: magenta;
-    text-shadow: 5px 5px 5px #000000;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    height: fit-content; }
   .home-second-half-container .form-container {
     display: flex;
     justify-content: center;
@@ -132,14 +160,6 @@ body {
     .home-second-half-container .form-container #mensaje {
       height: 6rem;
       width: 15rem; }
-    .home-second-half-container .form-container .input-opaco {
-      opacity: 0.7;
-      background-color: white;
-      color: magenta;
-      font-weight: bolder;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-      .home-second-half-container .form-container .input-opaco::placeholder {
-        opacity: 1; }
   .home-second-half-container .carousel {
     display: flex;
     justify-content: center;
@@ -152,13 +172,6 @@ body {
       width: 50rem;
       justify-items: center;
       border-radius: 10%; }
-  .home-second-half-container .carousel-title {
-    font-size: 40px;
-    font-family: 'Antonio', sans-serif;
-    color: #9e0f9e;
-    text-shadow: 5px 5px 5px black;
-    text-align: center;
-    margin-top: 10rem; }
 
 .godofwargame {
   display: flex;
@@ -168,14 +181,14 @@ body {
   height: 50rem; }
   .godofwargame .steam-link {
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     margin-left: 4rem;
     margin-top: 8rem; }
     .godofwargame .steam-link img {
       width: 18rem;
       border-radius: 80%;
-      box-shadow: 12px 12px 12px black; }
+      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
   .godofwargame .youtube-video {
     display: flex;
     flex-direction: column;
@@ -189,16 +202,8 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 48%);
     gap: 1rem; }
-    .godofwargame .grid-content .img-uno {
+    .godofwargame .grid-content .img-one, .godofwargame .grid-content .img-two {
       perspective: 1000px; }
-      .godofwargame .grid-content .img-uno:hover {
-        opacity: 1;
-        filter: blur(3px); }
-        .godofwargame .grid-content .img-uno:hover + .img-text-one {
-          opacity: 1; }
-          .godofwargame .grid-content .img-uno:hover + .img-text-one img {
-            width: 18rem;
-            opacity: 1; }
   .godofwargame .img-text-one {
     position: absolute;
     text-align: center;
@@ -207,11 +212,33 @@ body {
     left: 25%;
     transform: translate(-50%, -50%);
     opacity: 0;
+    pointer-events: none;
+    color: white;
     padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
     font-size: 20px;
-    transition: 1.5s;
-    color: white; }
+    transition: 1.5s; }
+    .godofwargame .img-text-one p {
+      margin-top: 1rem; }
     .godofwargame .img-text-one img {
+      width: 18rem; }
+  .godofwargame .img-text-two {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+    padding: 10px;
+    text-shadow: 5px 5px 5px #000000;
+    font-size: 20px;
+    transition: 1.5s; }
+    .godofwargame .img-text-two p {
+      margin-top: 1rem; }
+    .godofwargame .img-text-two img {
       width: 18rem; }
 
 .hogwarts-legacy-game {
@@ -222,14 +249,14 @@ body {
   height: 50rem; }
   .hogwarts-legacy-game .steam-link {
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     margin-left: 4rem;
     margin-top: 8rem; }
     .hogwarts-legacy-game .steam-link img {
       width: 18rem;
       border-radius: 80%;
-      box-shadow: 12px 12px 12px black; }
+      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
   .hogwarts-legacy-game .youtube-video {
     display: flex;
     flex-direction: column;
@@ -243,18 +270,9 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 48%);
     gap: 1rem; }
-    .hogwarts-legacy-game .grid-content .img-two {
+    .hogwarts-legacy-game .grid-content .img-one {
       perspective: 1000px; }
-      .hogwarts-legacy-game .grid-content .img-two:hover {
-        opacity: 1;
-        filter: blur(3px);
-        box-shadow: 8px 15px 25px rgba(59, 58, 58, 0.6); }
-        .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-two {
-          opacity: 5; }
-          .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-two img {
-            width: 18rem;
-            opacity: 1; }
-  .hogwarts-legacy-game .img-text-two {
+  .hogwarts-legacy-game .img-text-one {
     position: absolute;
     text-align: center;
     border-radius: 6px;
@@ -262,14 +280,15 @@ body {
     left: 25%;
     transform: translate(-50%, -50%);
     opacity: 0;
+    pointer-events: none;
     color: white;
     padding: 10px;
     text-shadow: 5px 5px 5px #000000;
     font-size: 20px;
     transition: 1.5s; }
-    .hogwarts-legacy-game .img-text-two p {
+    .hogwarts-legacy-game .img-text-one p {
       margin-top: 1rem; }
-    .hogwarts-legacy-game .img-text-two img {
+    .hogwarts-legacy-game .img-text-one img {
       width: 18rem; }
 
 .resident-evil-game {
@@ -280,14 +299,14 @@ body {
   height: 50rem; }
   .resident-evil-game .steam-link {
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     margin-left: 4rem;
     margin-top: 8rem; }
     .resident-evil-game .steam-link img {
       width: 18rem;
       border-radius: 80%;
-      box-shadow: 12px 12px 12px black; }
+      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
   .resident-evil-game .youtube-video {
     display: flex;
     flex-direction: column;

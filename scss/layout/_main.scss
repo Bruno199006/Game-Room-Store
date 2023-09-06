@@ -36,18 +36,7 @@
     
 
     .button-container{
-        display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10rem;
-    margin-top: 8rem;
-
-        a img{
-            display: flex;
-            border-radius: 50%;
-            width: 9.5rem;
-            
-        }
+       @include index-games-button-config;
         
     }
     p{
@@ -58,20 +47,14 @@
         text-align: center;
         font-size: 4rem;
     }
+    ////Index form////
     .form-box{
         @include flex-positions;
         margin-bottom: 1rem;
         height: fit-content;
     }
     .contact-title{
-        font-size: 40px;
-        font-family: 'Antonio', sans-serif;
-        color:$primary-color;
-        text-shadow: $text-shadow ;
-        text-align: center;
-        margin-top: 0.5rem;
-        margin-bottom: 2rem;
-        height: fit-content;
+        @extend %contact-title;
     }
     .form-container{
        @include flex-positions;
@@ -110,17 +93,9 @@
             width: 15rem;
         }
         .input-opaco{
-            opacity: 0.7;
-            background-color: $third-color;
-            color: $primary-color;
-            font-weight: bolder;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            
-            &::placeholder{
-              opacity: 1;
-            }
+           @extend %form-input-config;
         }
-    }
+    } ////Index Carousel////
     .carousel{
     @include flex-positions;
     justify-content: space-between;
@@ -137,12 +112,7 @@
 
     }
     .carousel-title{
-        font-size: 40px;
-    font-family: 'Antonio', sans-serif;
-    color:rgb(158, 15, 158);
-    text-shadow: 5px 5px 5px rgb(000000,000000,000000) ;
-    text-align: center;
-    margin-top: 10rem;
+       @extend %carousel-font-config;
     }
 }///////////////////////////////
 
@@ -157,78 +127,33 @@
     height: 50rem;
 
     .steam-link{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        margin-left: 4rem;
-        margin-top: 8rem;
-
-        img{
-            width: 18rem;
-    border-radius: 80%;
-    box-shadow: 12px 12px 12px black;
-        }
+       @include flex-positions;
+       @include steam-link-config;
       }
       .youtube-video{
-        display: flex;
-        flex-direction: column;
-        margin-right: 5rem;
-        margin-top: 2rem;
-
-        iframe{
-            margin-left: 5rem;
-        }
-        
+       @include youtube-config;
       }
       .grid-content {
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, 48%);
-        gap: 1rem;
-        
-        .img-uno {
+        @include grid-content;
+        .img-one,.img-two {
             perspective: 1000px;
-    
             &:hover {
-                opacity: 1;
-                filter: blur(3px);
-                
-    
-                + .img-text-one {  
-                    opacity: 1;
-
-                    img{
-                      width:18rem;
-                      opacity: 1;
-                    }
+                @extend %hover-properties;
+               + .img-text-one,+.img-text-two { 
+                    
+                @extend %hover-positions;
                 }
-            }
+              }
         }
       }
-    
-        .img-text-one {
-            position: absolute;
-            text-align: center;
-            border-radius: 6px;
-            top: 20%;
-            left: 25%;
-            transform: translate(-50%, -50%);
-            opacity: 0;
-            padding: 10px;
-            font-size: 20px;
-            transition: 1.5s;
-            color: $third-color;
-            img{
-              width: 18rem;
-            }
-            
+        .img-text-one{
+            @include image-text-animation-config
+       
+        }
+        .img-text-two{
+          @include image-text-animation-2
         }
     }
-    
-  
-  
-  
   ////////////Hogwarts legacy main  /////////////////////
    
   .hogwarts-legacy-game{
@@ -239,75 +164,30 @@
     height: 50rem;
 
     .steam-link{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        margin-left: 4rem;
-        margin-top: 8rem;
-
-        img{
-            width: 18rem;
-    border-radius: 80%;
-    box-shadow: 12px 12px 12px black;
-        }
+        @include flex-positions;
+        @include steam-link-config;
       }
       .youtube-video{
-        display: flex;
-        flex-direction: column;
-        margin-right: 5rem;
-        margin-top: 2rem;
-
-        iframe{
-            margin-left: 5rem;
-        }
+       @include youtube-config;
         
       }
       .grid-content {
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, 48%);
-        gap: 1rem;
+        @include grid-content;
         
-        .img-two {
+        .img-one {
             perspective: 1000px;
     
             &:hover {
-                opacity: 1;
-                filter: blur(3px);
-                box-shadow: $box-shadow-animation; 
-    
-                + .img-text-two {  
-                    opacity: 5;
-
-                    img{
-                      width:18rem;
-                      opacity: 1;
-                    }
+               @extend %hover-properties;
+                + .img-text-one {  
+                   @extend %hover-positions;
                 }
             }
         }
       }
     
-        .img-text-two {
-            position: absolute;
-            text-align: center;
-            border-radius: 6px;
-            top: 20%;
-            left: 25%;
-            transform: translate(-50%, -50%);
-            opacity: 0;
-            color: $third-color;
-            padding: 10px;
-            text-shadow: $text-shadow;
-            font-size: 20px;
-            transition: 1.5s;
-            p{
-              margin-top: 1rem;
-            }
-            img{
-              width: 18rem;
-            }
+        .img-text-one {
+            @include image-text-animation-config
         }
     }
  
@@ -321,17 +201,8 @@
     height: 50rem;
 
     .steam-link{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        margin-left: 4rem;
-        margin-top: 8rem;
-
-        img{
-            width: 18rem;
-    border-radius: 80%;
-    box-shadow: 12px 12px 12px black;
-        }
+        @include flex-positions;
+        @include steam-link-config;
       }
       .youtube-video{
         display: flex;

@@ -24,3 +24,86 @@
 @mixin vertical-direction{
     flex-direction: column;
 }
+@mixin grid-content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 48%);
+    gap: 1rem;
+}
+@mixin image-text-animation-config{
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    color: $third-color;
+    padding: 10px;
+    text-shadow: $text-shadow;
+    font-size: 20px;
+    transition: 1.5s;
+    p{
+      margin-top: 1rem;
+    }
+    img{
+      width: 18rem;
+    }
+}
+@mixin image-text-animation-2{
+    position: absolute;
+          text-align: center;
+          border-radius: 6px;
+          top: 20%;
+          left: 75%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          pointer-events: none;
+          color: $third-color;
+          padding: 10px;
+          text-shadow: $text-shadow;
+          font-size: 20px;
+          transition: 1.5s;
+          p{
+            margin-top: 1rem;
+          }
+          img{
+            width: 18rem;
+          }
+}
+@mixin index-games-button-config{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 8rem;
+
+        a img{
+            display: flex;
+            border-radius: 50%;
+            width: 9.5rem;
+            
+        }
+}
+@mixin youtube-config{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 2rem;
+
+    iframe{
+        margin-left: 5rem;
+    }
+}
+@mixin steam-link-config{
+    margin-left: 4rem;
+        margin-top: 8rem;
+
+        img{
+            width: 18rem;
+    border-radius: 80%;
+    box-shadow: $box-shadow;
+        }
+}
