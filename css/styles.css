@@ -288,7 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url("/images/fondo violet wave.jpg");
+  background-image: url("../images/fondo violet wave.jpg");
   height: 36.5rem;
   padding-top: 1rem; }
   .game-features h1 {
