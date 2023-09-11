@@ -159,8 +159,79 @@
         .img-text-four{
           @include image-text-animation-config(70%,75%);
         }
+       
+    }         
+    .game-features{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-image:url("/images/fondo\ violet\ wave.jpg");
+      height: 36.5rem;
+      padding-top: 1rem;
 
-    }                   ////////
+      h1{
+        color: magenta;
+        text-shadow:5px 5px 5px black;
+        font-family:'Antonio', sans-serif;
+      }
+      .grid-features{
+        position: absolute;
+        display: grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 35rem;
+        place-items: center;
+        gap: 3rem;
+
+
+          .skill-tree-gow{
+           width: 15rem;
+          }
+          .viking-shield{
+            width: 12rem;
+          }
+          .leviathan-axe{
+            width: 20rem;
+          }
+        }
+        
+        img{
+          object-fit: cover;
+          margin-top: 5rem;
+          margin-bottom: 3rem;
+          
+        }
+        p{
+          color: white;
+          font-size: 20px;
+          opacity: 1;
+          text-shadow: $text-shadow;
+         
+        }
+      }   
+      .gameplay-section{
+        font-family: 'Antonio', sans-serif;;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10rem auto;
+        background-image: url("/images/gow\ gameplay\ background.jpg");
+        background-size: cover;
+        height: 40rem;
+
+        h1{
+          margin-bottom: 3rem;
+          color: $primary-color;
+          text-shadow: $text-shadow;
+        }
+        iframe{
+           
+        }
+      }    
+
+                  ////////
 
 
                ////Hogwarts legacy main  ////
@@ -207,7 +278,9 @@
         .img-text-four{
           @include image-text-animation-config(70%,75%)
         }
-    }                  ///////
+    }  
+    
+    ///////
  
   
               ////Resident evil main ////
@@ -225,6 +298,7 @@
       }
       .youtube-video{
        @include youtube-config;
+       height: 40rem
       }
   
   .grid-content{
@@ -254,7 +328,52 @@
 .img-text-four{
 @include image-text-animation-config(70%,75%)
 }
-}               ////////
+}
+
+.second-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/leon\ wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  h1{
+    text-align: center;
+    font-family:"Besley",serif;;
+    color: $primary-color;
+    text-shadow: $text-shadow;
+    margin-top: 3rem;
+  }
+.merchant-features{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80rem;
+  width: 70rem;
+  text-align: left;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  font-size: 1.3rem;
+p{
+  color: $secondary-color;
+  text-shadow: $text-shadow;
+}
+  img{
+    height: 18rem;
+    width: 34rem;
+  }
+ h1{
+  margin: 0;
+  color: $secondary-color;
+ }
+  
+  
+} 
+}    
+////////
 
      ////////Little nightmares main ///////
     

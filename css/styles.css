@@ -283,6 +283,57 @@ body {
     .godofwargame .img-text-four img {
       width: 18rem; }
 
+.game-features {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("/images/fondo violet wave.jpg");
+  height: 36.5rem;
+  padding-top: 1rem; }
+  .game-features h1 {
+    color: magenta;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Antonio', sans-serif; }
+  .game-features .grid-features {
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 35rem;
+    place-items: center;
+    gap: 3rem; }
+    .game-features .grid-features .skill-tree-gow {
+      width: 15rem; }
+    .game-features .grid-features .viking-shield {
+      width: 12rem; }
+    .game-features .grid-features .leviathan-axe {
+      width: 20rem; }
+  .game-features img {
+    object-fit: cover;
+    margin-top: 5rem;
+    margin-bottom: 3rem; }
+  .game-features p {
+    color: white;
+    font-size: 20px;
+    opacity: 1;
+    text-shadow: 5px 5px 5px #000000; }
+
+.gameplay-section {
+  font-family: 'Antonio', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem auto;
+  background-image: url("/images/gow gameplay background.jpg");
+  background-size: cover;
+  height: 40rem; }
+  .gameplay-section h1 {
+    margin-bottom: 3rem;
+    color: magenta;
+    text-shadow: 5px 5px 5px #000000; }
+
 .hogwarts-legacy-game {
   display: flex;
   justify-content: center;
@@ -416,7 +467,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 5rem;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    height: 40rem; }
     .resident-evil-game .youtube-video iframe {
       margin-left: 5rem; }
   .resident-evil-game .grid-content {
@@ -508,6 +560,42 @@ body {
       margin-top: 1rem; }
     .resident-evil-game .img-text-four img {
       width: 18rem; }
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/leon wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; }
+  .second-section h1 {
+    text-align: center;
+    font-family: "Besley",serif;
+    color: magenta;
+    text-shadow: 5px 5px 5px #000000;
+    margin-top: 3rem; }
+  .second-section .merchant-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80rem;
+    width: 70rem;
+    text-align: left;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    font-size: 1.3rem; }
+    .second-section .merchant-features p {
+      color: cyan;
+      text-shadow: 5px 5px 5px #000000; }
+    .second-section .merchant-features img {
+      height: 18rem;
+      width: 34rem; }
+    .second-section .merchant-features h1 {
+      margin: 0;
+      color: cyan; }
 
 .little-nightmares-game {
   display: flex;
