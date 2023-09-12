@@ -180,6 +180,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     margin-left: 4rem;
     margin-top: 8rem; }
     .godofwargame .steam-link img {
@@ -300,9 +301,10 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 35rem;
+    height: 30rem;
     place-items: center;
-    gap: 3rem; }
+    gap: 3rem;
+    margin-top: 3rem; }
     .game-features .grid-features .skill-tree-gow {
       width: 15rem; }
     .game-features .grid-features .viking-shield {
@@ -326,7 +328,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 10rem auto;
-  background-image: url("../images/gow gameplay background.jpg");
+  background-image: url("/images/gow gameplay background.jpg");
   background-size: cover;
   height: 40rem; }
   .gameplay-section h1 {
@@ -344,6 +346,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     margin-left: 4rem;
     margin-top: 8rem; }
     .hogwarts-legacy-game .steam-link img {
@@ -457,6 +460,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     margin-left: 4rem;
     margin-top: 8rem; }
     .resident-evil-game .steam-link img {
@@ -579,23 +583,26 @@ body {
   .second-section .merchant-features {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 80rem;
+    grid-template-rows: 1fr 1fr;
+    height: 70rem;
     width: 70rem;
     text-align: left;
     align-items: center;
     margin-top: 2rem;
-    gap: 2rem;
+    gap: 1rem;
     font-size: 1.3rem; }
     .second-section .merchant-features p {
       color: cyan;
-      text-shadow: 5px 5px 5px #000000; }
+      text-shadow: 5px 5px 5px #000000;
+      margin-top: 2rem;
+      text-align: center;
+      font-family: 'Antonio', sans-serif; }
     .second-section .merchant-features img {
       height: 18rem;
       width: 34rem; }
     .second-section .merchant-features h1 {
       margin: 0;
-      color: cyan; }
+      color: magenta; }
 
 .little-nightmares-game {
   display: flex;
@@ -607,6 +614,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     margin-left: 4rem;
     margin-top: 8rem; }
     .little-nightmares-game .steam-link img {
@@ -750,14 +758,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
-    .godofwargame .youtube-video iframe, .hogwarts-legacy-game .youtube-video iframe, .little-nightmares-game .youtube-video iframe, .resident-evil-game .youtube-video iframe {
+    .godofwargame .youtube-video, .hogwarts-legacy-game .youtube-video, .little-nightmares-game .youtube-video, .resident-evil-game .youtube-video {
       flex-direction: column;
-      width: 19.5rem;
-      height: 11rem;
-      margin-top: 1rem; }
+      width: 30rem;
+      height: 14rem;
+      margin-top: 1rem;
+      align-items: center;
+      width: 50%; }
+      .godofwargame .youtube-video iframe, .hogwarts-legacy-game .youtube-video iframe, .little-nightmares-game .youtube-video iframe, .resident-evil-game .youtube-video iframe {
+        width: 20rem;
+        height: 12rem; }
     .godofwargame .grid-content, .hogwarts-legacy-game .grid-content, .little-nightmares-game .grid-content, .resident-evil-game .grid-content {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(2, 20%);
+      grid-template-rows: repeat(1, 20%);
       gap: 3rem;
       width: 15rem;
       height: auto;
@@ -838,9 +851,39 @@ body {
     .godofwargame .steam-link, .hogwarts-legacy-game .steam-link, .little-nightmares-game .steam-link, .resident-evil-game .steam-link {
       position: absolute;
       margin-top: 66rem;
-      margin-left: 9.5rem; }
+      margin-left: 5rem; }
     .godofwargame .steam-link img, .hogwarts-legacy-game .steam-link img, .little-nightmares-game .steam-link img, .resident-evil-game .steam-link img {
-      width: 10rem; } }
+      width: 10rem; }
+  .second-section {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    background-position: center; }
+    .second-section .youtube-video {
+      flex-direction: column;
+      width: 30rem;
+      height: 14rem;
+      margin-top: 1rem;
+      align-items: center;
+      width: 50%; }
+      .second-section .youtube-video iframe {
+        width: 20rem;
+        height: 12rem; }
+    .second-section .merchant-features {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      width: 90%;
+      height: 100%; }
+      .second-section .merchant-features h1 {
+        margin-bottom: 1rem; }
+      .second-section .merchant-features img {
+        width: 100%; }
+      .second-section .merchant-features p {
+        text-align: center;
+        font-size: 100%;
+        margin-top: 2rem; }
+      .second-section .merchant-features iframe {
+        width: 20rem; } }
 
 .header-godofwar, .header-hogwarts-legacy, .header-little-nightmares, .header-resident-evil {
   display: flex;

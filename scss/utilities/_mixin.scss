@@ -90,6 +90,7 @@
     }
 }
 @mixin steam-link-config{
+    display: flex;
     margin-left: 4rem;
         margin-top: 8rem;
 
@@ -104,7 +105,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2,20%);
     place-items: center;
-    height: auto;
+    height:auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -113,7 +114,7 @@
 ///mobile mixin config///
 @mixin grid-content-mobile{
     grid-template-columns:1fr;
-    grid-template-rows:repeat(2,20%) ;
+    grid-template-rows:repeat(1,20%) ;
     gap: 3rem;
     width: 15rem;
     height: auto;
@@ -121,11 +122,20 @@
     margin-top: 28rem;
 }
 @mixin youtube-video-config-mobile{
-    iframe{
+    .youtube-video{
         flex-direction: column;
-        width: 19.5rem;
-        height:11rem;
+        width: 30rem;
+        height:14rem;
         margin-top: 1rem;
+        align-items: center;
+        width: 50%;
+
+
+        iframe{
+            width: 20rem;
+            height: 12rem;
+    
+        }
     }
 }
 /////////////////////////

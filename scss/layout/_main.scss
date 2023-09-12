@@ -180,9 +180,10 @@
         display: grid;
         grid-template-rows: 1fr ;
         grid-template-columns: 1fr 1fr 1fr;
-        height: 35rem;
+        height: 30rem;
         place-items: center;
         gap: 3rem;
+        margin-top: 3rem;
 
 
           .skill-tree-gow{
@@ -217,7 +218,7 @@
         flex-direction: column;
         align-items: center;
         padding: 10rem auto;
-        background-image: url("../images/gow\ gameplay\ background.jpg");
+        background-image: url("/images/gow\ gameplay\ background.jpg");
         background-size: cover;
         height: 40rem;
 
@@ -349,17 +350,20 @@
 .merchant-features{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 80rem;
+  grid-template-rows: 1fr 1fr ;
+  height: 70rem;
   width: 70rem;
   text-align: left;
   align-items: center;
   margin-top: 2rem;
-  gap: 2rem;
+  gap: 1rem;
   font-size: 1.3rem;
 p{
   color: $secondary-color;
   text-shadow: $text-shadow;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: 'Antonio', sans-serif;
 }
   img{
     height: 18rem;
@@ -367,10 +371,9 @@ p{
   }
  h1{
   margin: 0;
-  color: $secondary-color;
+  color: $primary-color;
  }
-  
-  
+ 
 } 
 }    
 ////////
@@ -477,10 +480,9 @@ p{
 .godofwargame, .hogwarts-legacy-game, .little-nightmares-game, .resident-evil-game{
     @include grid-config-mobile;
     
-    .youtube-video {
-        @include youtube-video-config-mobile
+    
+        @include youtube-video-config-mobile;
    
-    }
    .grid-content{
    @include grid-content-mobile;
 
@@ -501,11 +503,44 @@ p{
   .steam-link {
     position: absolute;
     margin-top: 66rem;
-    margin-left: 9.5rem;
+    margin-left: 5rem;
     
   }
   .steam-link img {
     width: 10rem;
   }
-  } 
+  } ////resident evil features mobile////
+  .second-section{
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    @include youtube-video-config-mobile;
+    background-position: center;
+    .merchant-features{
+      grid-template-columns: 1fr;
+      grid-template-rows:1fr;
+      width: 90%;
+      height: 100%;
+     h1{
+      margin-bottom: 1rem;
+     }
+    img{
+      width: 100%;
+    }
+    p{
+      text-align: center;
+      font-size: 100%;
+      margin-top: 2rem;
+      
+    }
+    iframe{
+      width: 20rem;
+    }
+  }
+
+
+  ////god of war features mobile///
+  /// little nightmares features mobile///
+  /// hogwarts legacy features mobile///
+}
 }
