@@ -328,7 +328,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 10rem auto;
-  background-image: url("/images/gow gameplay background.jpg");
+  background-image: url("../images/gow gameplay background.jpg");
   background-size: cover;
   height: 40rem; }
   .gameplay-section h1 {
