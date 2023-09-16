@@ -116,51 +116,69 @@
     }
 }                 ////////
 
-
-            ////God of war main////
-
-.godofwargame{
-    display: flex;
-    justify-content:center;
-    background-size: cover;
-    background-image: url("../images/Gowlandscape.webp");
-    height: 50rem;
-
-    .steam-link{
-       @include flex-positions;
-       @include steam-link-config;
+////Pages start content////
+.main-container-gow,.main-container-resident-evil-4,.main-container-hogwarts-legacy,.main-container-little-nightmares{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  @include background;
+  .grid-images-1{
+    display: grid;
+    place-items: end;
+    img{
+      object-fit: cover;
+      width: 70%;
+      border-radius: 1%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+    }
+  }
+    .grid-images-2{
+      display: grid;
+      place-items: start;
+      img{
+        object-fit: cover;
+        width: 70%;
+        height: auto;
+        border-radius: 1%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
       }
-      .youtube-video{
-       @include youtube-config;
-      }
-      .grid-content {
-        @include grid-content;
-        .img-one,.img-two,.img-three,.img-four {
-            perspective: 1000px;
-            &:hover {
-                @extend %hover-properties;
-               + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four { 
-                    
-                @extend %hover-positions;
-                }
-              }
-        }
-      }
-        .img-text-one{
-            @include image-text-animation-config(20%,25%);
-       
-        }
-        .img-text-two{
-          @include image-text-animation-config(20%,77%);
-        }
-        .img-text-three{
-          @include image-text-animation-config(70%,25%);
-        }
-        .img-text-four{
-          @include image-text-animation-config(70%,75%);
-        }
-       
-    }         
+    }
+ 
+  .steam-yt{
+    display: grid;
+margin-left: 1rem;
+place-items: center;
+a{
+  width: fit-content;
+  height: 8rem;
+}
+img{
+  border-radius: 50%;
+  width: 14rem;
+  object-fit: cover;
+  margin-left: 1rem;
+  box-shadow: $box-shadow;
+
+}
+iframe{
+  border-radius: 2%;
+  width: 89%;
+  height: 100%;
+  margin-top: 2rem;
+
+}
+  }
+
+}
+
+            ////God of war features////
+    .main-container-gow{
+      background-image: url("../images/Gowlandscape.webp");
+      
+    }
     .game-features{
       position: relative;
       display: flex;
@@ -227,110 +245,87 @@
           color: $primary-color;
           text-shadow: $text-shadow;
         }
-        iframe{
-           
-        }
+        
       }    
 
                   ////////
 
 
-               ////Hogwarts legacy main  ////
+               ////Hogwarts legacy features  ////
    
-  .hogwarts-legacy-game{
-    display: flex;
-    justify-content:center;
+ .main-container-hogwarts-legacy{
+  background-image: url("../images/hogwarts\ legacy\ landscape.jpg");
+  
+ }
+    .guide-container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  height: 40rem;
+  background-image: url("../images/fondo\ violet\ wave.jpg");
+  h1{
+    text-align: center;
+    font-family: "Antonio",sans-serif;
+    color: $primary-color;
+    text-shadow: $text-shadow;
+    margin-top: 3rem;
+  }
+    .hogwarts-guide{
+      display: flex;
+      justify-items: center;
+      margin-top: 6rem;
+      gap: 1rem;
+      width:97% ;
+      p{
+        color: $secondary-color;
+        text-shadow: $text-shadow;
+        margin-top: 2rem;
+        font-family: "Antonio",sans-serif;
+      }
+      
+      
+      img{
+        width:100%;    
+      }
+    }
+  }
+  .carousel-container{
+    text-align: center;
+    height: 33rem;
+    background-image: url("../images/hogwarts\ landscape.webp");
     background-size: cover;
-    background-image: url("../images/hogwarts legacy landscape.jpg");
-    height: 50rem;
-
-    .steam-link{
-        @include flex-positions;
-        @include steam-link-config;
-      }
-      .youtube-video{
-       @include youtube-config;
-        
-      }
-      .grid-content {
-        @include grid-content;
-        
-        .img-one,.img-two,.img-three,.img-four {
-            perspective: 1000px;
+    h1{
+     padding-top: 1rem;
+      font-family: "Antonio",sans-serif;
+      color: $primary-color;
+      text-shadow: $text-shadow;
+    }
+  }
+  .carousel{
     
-            &:hover {
-               @extend %hover-properties;
-                + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four {  
-                   @extend %hover-positions;
-                }
-            }
-        }
+      @include flex-positions;
+      justify-content: space-between;
+      width: 40rem;
+      margin-left: 10rem;
+      margin: 3rem auto;
+  
+      img{
+          width: 50rem;
+      justify-items: center;
+      border-radius: 2%;
       }
-    
-        .img-text-one {
-            @include image-text-animation-config(20%,25%)
-        }
-        .img-text-two{
-          @include image-text-animation-config(20%,77%)
-        }
-        .img-text-three{
-          @include image-text-animation-config(70%,25%)
-        }
-        .img-text-four{
-          @include image-text-animation-config(70%,75%)
-        }
-    }  
-    
-    ///////
+  
+  
+      }
  
   
-              ////Resident evil main ////
+              ////Resident evil features ////
               
-.resident-evil-game{
-    display: flex;
-    justify-content:center;
-    background-size: cover;
-    background-image: url("../images/resident evil 4 background.jpeg");
-    height: 50rem;
 
-    .steam-link{
-        @include flex-positions;
-        @include steam-link-config;
-      }
-      .youtube-video{
-       @include youtube-config;
-       height: 40rem
-      }
-  
-  .grid-content{
-
-    @include grid-content;
-    .img-one,.img-two,.img-three,.img-four {
-      perspective: 1000px;
-
-      &:hover {
-         @extend %hover-properties;
-          + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four {  
-             @extend %hover-positions;
-          }
-      }
-  }
-}            
-
-.img-text-one {
-  @include image-text-animation-config(20%,25%)
+.main-container-resident-evil-4{
+  background-image: url("../images/resident\ evil\ 4\ background.jpeg");
 }
-.img-text-two{
-@include image-text-animation-config(20%,77%)
-}
-.img-text-three{
-@include image-text-animation-config(70%,25%)
-}
-.img-text-four{
-@include image-text-animation-config(70%,75%)
-}
-}
-
 .second-section{
   display: flex;
   justify-content: center;
@@ -376,55 +371,45 @@ p{
  
 } 
 }    
-////////
 
-     ////////Little nightmares main ///////
-    
-.little-nightmares-game{
+     ////////Little nightmares features ///////
+ .main-container-little-nightmares{
+  background-image: url("../images/little\ nightmares\ background.jpg");
+ }
+////Tablet section///
+@media  (max-width: 1024px) {
+  .godofwargame{
     display: flex;
-    justify-content:center;
-    background-size: cover;
-    background-image: url("../images/little nightmares background.jpg");
-    height: 50rem;
-
-    .steam-link{
-      @include flex-positions;
-       @include steam-link-config;
-      }
-      .youtube-video{
-       @include youtube-config
-        
-      }
+    flex-direction: column;
+  .youtube-video,.steam-link{
+ margin-left: 15rem;
+   width: 33rem;
+   height: 15rem;
+   margin-top: 100rem;
+   iframe{
+    margin-top: 34rem;
+    width: 40rem;
+    height: 40rem;
+   }
+   }
+    
   }
+  }
+  
   .grid-content{
-    @include grid-content;
-    .img-one,.img-two,.img-three,.img-four {
-      perspective: 1000px;
+   width: 10rem;
+   margin-bottom: 90rem;
+   margin-left: 1.6rem;
+   justify-content: center;
+  }
 
-      &:hover {
-         @extend %hover-properties;
-          + .img-text-one,+.img-text-two,+.img-text-three,+.img-text-four {  
-             @extend %hover-positions;
-          }
-      }
-  }
-  .img-text-one {
-    @include image-text-animation-config(20%,25%)
-  }
-  .img-text-two{
-  @include image-text-animation-config(20%,77%)
-  }
-  .img-text-three{
-  @include image-text-animation-config(70%,25%)
-  }
-  .img-text-four{
-  @include image-text-animation-config(70%,75%)
-  }
-}               ///////
+
+
 
         /////Mobile section////
         
 @media(max-width:768px){
+
     .nav-link {
      margin-left: 2rem;
      text-align: center;
@@ -477,39 +462,8 @@ p{
   
   }
 
-.godofwargame, .hogwarts-legacy-game, .little-nightmares-game, .resident-evil-game{
-    @include grid-config-mobile;
-    
-    
-        @include youtube-video-config-mobile;
-   
-   .grid-content{
-   @include grid-content-mobile;
 
-
-    .img-text-one {
-      @include image-text-animation-config(10%,50%);
-    }
-    .img-text-two{
-    @include image-text-animation-config(37%,50%);
-    }
-    .img-text-three{
-    @include image-text-animation-config(64%,50%);
-    }
-    .img-text-four{
-    @include image-text-animation-config(91%,50%);
-    }
-   }
-  .steam-link {
-    position: absolute;
-    margin-top: 66rem;
-    margin-left: 5rem;
-    
-  }
-  .steam-link img {
-    width: 10rem;
-  }
-  } ////resident evil features mobile////
+  ////resident evil features mobile////
   .second-section{
     display: grid;
     place-items: center;
@@ -537,10 +491,68 @@ p{
       width: 20rem;
     }
   }
-
+}
 
   ////god of war features mobile///
+    .game-features{
+      height:90rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+   .grid-features{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      margin: auto 3rem;
+      
+
+    }
+  }
+  .gameplay-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    background-position: center;
+    
+
+        iframe{
+            width: 26rem;
+            height: 15rem;
+    
+        }
+        h1{
+          margin-top: 0;
+        }
+  }
+  
+
   /// little nightmares features mobile///
   /// hogwarts legacy features mobile///
+  .soundtracks{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    iframe{
+      width: 14rem;
+      height: 10rem;
+    }
+  }
+  .guide-container{
+    height: 106rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  .hogwarts-guide{
+    flex-direction: column;
+    img{
+      width: 80%;
+    }
+  }
+}
+.carousel-container{
+  h1{
+    text-shadow: $text-shadow;
+  }
+  .carousel{
+    width: 95%;
+  }
 }
 }

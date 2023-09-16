@@ -1,13 +1,3 @@
-.godofwargame .grid-content .img-one:hover, .godofwargame .grid-content .img-two:hover, .godofwargame .grid-content .img-three:hover, .godofwargame .grid-content .img-four:hover, .hogwarts-legacy-game .grid-content .img-one:hover, .hogwarts-legacy-game .grid-content .img-two:hover, .hogwarts-legacy-game .grid-content .img-three:hover, .hogwarts-legacy-game .grid-content .img-four:hover, .resident-evil-game .grid-content .img-one:hover, .resident-evil-game .grid-content .img-two:hover, .resident-evil-game .grid-content .img-three:hover, .resident-evil-game .grid-content .img-four:hover, .grid-content .img-one:hover, .grid-content .img-two:hover, .grid-content .img-three:hover, .grid-content .img-four:hover {
-  opacity: 1;
-  filter: blur(3px); }
-
-.godofwargame .grid-content .img-one:hover + .img-text-one, .godofwargame .grid-content .img-one:hover + .img-text-two, .godofwargame .grid-content .img-one:hover + .img-text-three, .godofwargame .grid-content .img-one:hover + .img-text-four, .godofwargame .grid-content .img-two:hover + .img-text-one, .godofwargame .grid-content .img-two:hover + .img-text-two, .godofwargame .grid-content .img-two:hover + .img-text-three, .godofwargame .grid-content .img-two:hover + .img-text-four, .godofwargame .grid-content .img-three:hover + .img-text-one, .godofwargame .grid-content .img-three:hover + .img-text-two, .godofwargame .grid-content .img-three:hover + .img-text-three, .godofwargame .grid-content .img-three:hover + .img-text-four, .godofwargame .grid-content .img-four:hover + .img-text-one, .godofwargame .grid-content .img-four:hover + .img-text-two, .godofwargame .grid-content .img-four:hover + .img-text-three, .godofwargame .grid-content .img-four:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-four, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-one, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-two, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-three, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-four, .resident-evil-game .grid-content .img-one:hover + .img-text-one, .resident-evil-game .grid-content .img-one:hover + .img-text-two, .resident-evil-game .grid-content .img-one:hover + .img-text-three, .resident-evil-game .grid-content .img-one:hover + .img-text-four, .resident-evil-game .grid-content .img-two:hover + .img-text-one, .resident-evil-game .grid-content .img-two:hover + .img-text-two, .resident-evil-game .grid-content .img-two:hover + .img-text-three, .resident-evil-game .grid-content .img-two:hover + .img-text-four, .resident-evil-game .grid-content .img-three:hover + .img-text-one, .resident-evil-game .grid-content .img-three:hover + .img-text-two, .resident-evil-game .grid-content .img-three:hover + .img-text-three, .resident-evil-game .grid-content .img-three:hover + .img-text-four, .resident-evil-game .grid-content .img-four:hover + .img-text-one, .resident-evil-game .grid-content .img-four:hover + .img-text-two, .resident-evil-game .grid-content .img-four:hover + .img-text-three, .resident-evil-game .grid-content .img-four:hover + .img-text-four, .grid-content .img-one:hover + .img-text-one, .grid-content .img-one:hover + .img-text-two, .grid-content .img-one:hover + .img-text-three, .grid-content .img-one:hover + .img-text-four, .grid-content .img-two:hover + .img-text-one, .grid-content .img-two:hover + .img-text-two, .grid-content .img-two:hover + .img-text-three, .grid-content .img-two:hover + .img-text-four, .grid-content .img-three:hover + .img-text-one, .grid-content .img-three:hover + .img-text-two, .grid-content .img-three:hover + .img-text-three, .grid-content .img-three:hover + .img-text-four, .grid-content .img-four:hover + .img-text-one, .grid-content .img-four:hover + .img-text-two, .grid-content .img-four:hover + .img-text-three, .grid-content .img-four:hover + .img-text-four {
-  opacity: 1; }
-  .godofwargame .grid-content .img-one:hover + .img-text-one img, .godofwargame .grid-content .img-one:hover + .img-text-two img, .godofwargame .grid-content .img-one:hover + .img-text-three img, .godofwargame .grid-content .img-one:hover + .img-text-four img, .godofwargame .grid-content .img-two:hover + .img-text-one img, .godofwargame .grid-content .img-two:hover + .img-text-two img, .godofwargame .grid-content .img-two:hover + .img-text-three img, .godofwargame .grid-content .img-two:hover + .img-text-four img, .godofwargame .grid-content .img-three:hover + .img-text-one img, .godofwargame .grid-content .img-three:hover + .img-text-two img, .godofwargame .grid-content .img-three:hover + .img-text-three img, .godofwargame .grid-content .img-three:hover + .img-text-four img, .godofwargame .grid-content .img-four:hover + .img-text-one img, .godofwargame .grid-content .img-four:hover + .img-text-two img, .godofwargame .grid-content .img-four:hover + .img-text-three img, .godofwargame .grid-content .img-four:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-one:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-two:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-three:hover + .img-text-four img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-one img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-two img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-three img, .hogwarts-legacy-game .grid-content .img-four:hover + .img-text-four img, .resident-evil-game .grid-content .img-one:hover + .img-text-one img, .resident-evil-game .grid-content .img-one:hover + .img-text-two img, .resident-evil-game .grid-content .img-one:hover + .img-text-three img, .resident-evil-game .grid-content .img-one:hover + .img-text-four img, .resident-evil-game .grid-content .img-two:hover + .img-text-one img, .resident-evil-game .grid-content .img-two:hover + .img-text-two img, .resident-evil-game .grid-content .img-two:hover + .img-text-three img, .resident-evil-game .grid-content .img-two:hover + .img-text-four img, .resident-evil-game .grid-content .img-three:hover + .img-text-one img, .resident-evil-game .grid-content .img-three:hover + .img-text-two img, .resident-evil-game .grid-content .img-three:hover + .img-text-three img, .resident-evil-game .grid-content .img-three:hover + .img-text-four img, .resident-evil-game .grid-content .img-four:hover + .img-text-one img, .resident-evil-game .grid-content .img-four:hover + .img-text-two img, .resident-evil-game .grid-content .img-four:hover + .img-text-three img, .resident-evil-game .grid-content .img-four:hover + .img-text-four img, .grid-content .img-one:hover + .img-text-one img, .grid-content .img-one:hover + .img-text-two img, .grid-content .img-one:hover + .img-text-three img, .grid-content .img-one:hover + .img-text-four img, .grid-content .img-two:hover + .img-text-one img, .grid-content .img-two:hover + .img-text-two img, .grid-content .img-two:hover + .img-text-three img, .grid-content .img-two:hover + .img-text-four img, .grid-content .img-three:hover + .img-text-one img, .grid-content .img-three:hover + .img-text-two img, .grid-content .img-three:hover + .img-text-three img, .grid-content .img-three:hover + .img-text-four img, .grid-content .img-four:hover + .img-text-one img, .grid-content .img-four:hover + .img-text-two img, .grid-content .img-four:hover + .img-text-three img, .grid-content .img-four:hover + .img-text-four img {
-    width: 18rem;
-    opacity: 1; }
-
 .home-second-half-container .contact-title {
   font-size: 40px;
   font-family: 'Antonio', sans-serif;
@@ -170,119 +160,54 @@ body {
       justify-items: center;
       border-radius: 2%; }
 
-.godofwargame {
-  display: flex;
-  justify-content: center;
-  background-size: cover;
-  background-image: url("../images/Gowlandscape.webp");
-  height: 50rem; }
-  .godofwargame .steam-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left: 4rem;
-    margin-top: 8rem; }
-    .godofwargame .steam-link img {
-      width: 18rem;
-      border-radius: 80%;
-      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
-  .godofwargame .youtube-video {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 2rem; }
-    .godofwargame .youtube-video iframe {
-      margin-left: 5rem; }
-  .godofwargame .grid-content {
-    position: relative;
+.main-container-gow, .main-container-resident-evil-4, .main-container-hogwarts-legacy, .main-container-little-nightmares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main-container-gow .grid-images-1, .main-container-resident-evil-4 .grid-images-1, .main-container-hogwarts-legacy .grid-images-1, .main-container-little-nightmares .grid-images-1 {
     display: grid;
-    height: 60vh;
-    width: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 48%);
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem; }
-    .godofwargame .grid-content img {
-      width: 100%;
-      height: 100%;
+    place-items: end; }
+    .main-container-gow .grid-images-1 img, .main-container-resident-evil-4 .grid-images-1 img, .main-container-hogwarts-legacy .grid-images-1 img, .main-container-little-nightmares .grid-images-1 img {
       object-fit: cover;
-      border-radius: 2%; }
-    .godofwargame .grid-content .img-one, .godofwargame .grid-content .img-two, .godofwargame .grid-content .img-three, .godofwargame .grid-content .img-four {
-      perspective: 1000px; }
-  .godofwargame .img-text-one {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .godofwargame .img-text-one p {
-      margin-top: 1rem; }
-    .godofwargame .img-text-one img {
-      width: 18rem; }
-  .godofwargame .img-text-two {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .godofwargame .img-text-two p {
-      margin-top: 1rem; }
-    .godofwargame .img-text-two img {
-      width: 18rem; }
-  .godofwargame .img-text-three {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .godofwargame .img-text-three p {
-      margin-top: 1rem; }
-    .godofwargame .img-text-three img {
-      width: 18rem; }
-  .godofwargame .img-text-four {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .godofwargame .img-text-four p {
-      margin-top: 1rem; }
-    .godofwargame .img-text-four img {
-      width: 18rem; }
+      width: 70%;
+      border-radius: 1%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem; }
+  .main-container-gow .grid-images-2, .main-container-resident-evil-4 .grid-images-2, .main-container-hogwarts-legacy .grid-images-2, .main-container-little-nightmares .grid-images-2 {
+    display: grid;
+    place-items: start; }
+    .main-container-gow .grid-images-2 img, .main-container-resident-evil-4 .grid-images-2 img, .main-container-hogwarts-legacy .grid-images-2 img, .main-container-little-nightmares .grid-images-2 img {
+      object-fit: cover;
+      width: 70%;
+      height: auto;
+      border-radius: 1%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem; }
+  .main-container-gow .steam-yt, .main-container-resident-evil-4 .steam-yt, .main-container-hogwarts-legacy .steam-yt, .main-container-little-nightmares .steam-yt {
+    display: grid;
+    margin-left: 1rem;
+    place-items: center; }
+    .main-container-gow .steam-yt a, .main-container-resident-evil-4 .steam-yt a, .main-container-hogwarts-legacy .steam-yt a, .main-container-little-nightmares .steam-yt a {
+      width: fit-content;
+      height: 8rem; }
+    .main-container-gow .steam-yt img, .main-container-resident-evil-4 .steam-yt img, .main-container-hogwarts-legacy .steam-yt img, .main-container-little-nightmares .steam-yt img {
+      border-radius: 50%;
+      width: 14rem;
+      object-fit: cover;
+      margin-left: 1rem;
+      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
+    .main-container-gow .steam-yt iframe, .main-container-resident-evil-4 .steam-yt iframe, .main-container-hogwarts-legacy .steam-yt iframe, .main-container-little-nightmares .steam-yt iframe {
+      border-radius: 2%;
+      width: 89%;
+      height: 100%;
+      margin-top: 2rem; }
+
+.main-container-gow {
+  background-image: url("../images/Gowlandscape.webp"); }
 
 .game-features {
   position: relative;
@@ -336,234 +261,62 @@ body {
     color: magenta;
     text-shadow: 5px 5px 5px #000000; }
 
-.hogwarts-legacy-game {
-  display: flex;
-  justify-content: center;
-  background-size: cover;
-  background-image: url("../images/hogwarts legacy landscape.jpg");
-  height: 50rem; }
-  .hogwarts-legacy-game .steam-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left: 4rem;
-    margin-top: 8rem; }
-    .hogwarts-legacy-game .steam-link img {
-      width: 18rem;
-      border-radius: 80%;
-      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
-  .hogwarts-legacy-game .youtube-video {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 2rem; }
-    .hogwarts-legacy-game .youtube-video iframe {
-      margin-left: 5rem; }
-  .hogwarts-legacy-game .grid-content {
-    position: relative;
-    display: grid;
-    height: 60vh;
-    width: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 48%);
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem; }
-    .hogwarts-legacy-game .grid-content img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 2%; }
-    .hogwarts-legacy-game .grid-content .img-one, .hogwarts-legacy-game .grid-content .img-two, .hogwarts-legacy-game .grid-content .img-three, .hogwarts-legacy-game .grid-content .img-four {
-      perspective: 1000px; }
-  .hogwarts-legacy-game .img-text-one {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .hogwarts-legacy-game .img-text-one p {
-      margin-top: 1rem; }
-    .hogwarts-legacy-game .img-text-one img {
-      width: 18rem; }
-  .hogwarts-legacy-game .img-text-two {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .hogwarts-legacy-game .img-text-two p {
-      margin-top: 1rem; }
-    .hogwarts-legacy-game .img-text-two img {
-      width: 18rem; }
-  .hogwarts-legacy-game .img-text-three {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .hogwarts-legacy-game .img-text-three p {
-      margin-top: 1rem; }
-    .hogwarts-legacy-game .img-text-three img {
-      width: 18rem; }
-  .hogwarts-legacy-game .img-text-four {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .hogwarts-legacy-game .img-text-four p {
-      margin-top: 1rem; }
-    .hogwarts-legacy-game .img-text-four img {
-      width: 18rem; }
+.main-container-hogwarts-legacy {
+  background-image: url("../images/hogwarts legacy landscape.jpg"); }
 
-.resident-evil-game {
+.guide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 40rem;
+  background-image: url("../images/fondo violet wave.jpg"); }
+  .guide-container h1 {
+    text-align: center;
+    font-family: "Antonio",sans-serif;
+    color: magenta;
+    text-shadow: 5px 5px 5px #000000;
+    margin-top: 3rem; }
+  .guide-container .hogwarts-guide {
+    display: flex;
+    justify-items: center;
+    margin-top: 6rem;
+    gap: 1rem;
+    width: 97%; }
+    .guide-container .hogwarts-guide p {
+      color: cyan;
+      text-shadow: 5px 5px 5px #000000;
+      margin-top: 2rem;
+      font-family: "Antonio",sans-serif; }
+    .guide-container .hogwarts-guide img {
+      width: 100%; }
+
+.carousel-container {
+  text-align: center;
+  height: 33rem;
+  background-image: url("../images/hogwarts landscape.webp");
+  background-size: cover; }
+  .carousel-container h1 {
+    padding-top: 1rem;
+    font-family: "Antonio",sans-serif;
+    color: magenta;
+    text-shadow: 5px 5px 5px #000000; }
+
+.carousel {
   display: flex;
   justify-content: center;
-  background-size: cover;
-  background-image: url("../images/resident evil 4 background.jpeg");
-  height: 50rem; }
-  .resident-evil-game .steam-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left: 4rem;
-    margin-top: 8rem; }
-    .resident-evil-game .steam-link img {
-      width: 18rem;
-      border-radius: 80%;
-      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
-  .resident-evil-game .youtube-video {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 2rem;
-    height: 40rem; }
-    .resident-evil-game .youtube-video iframe {
-      margin-left: 5rem; }
-  .resident-evil-game .grid-content {
-    position: relative;
-    display: grid;
-    height: 60vh;
-    width: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 48%);
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-right: 10rem; }
-    .resident-evil-game .grid-content img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 2%; }
-    .resident-evil-game .grid-content .img-one, .resident-evil-game .grid-content .img-two, .resident-evil-game .grid-content .img-three, .resident-evil-game .grid-content .img-four {
-      perspective: 1000px; }
-  .resident-evil-game .img-text-one {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .resident-evil-game .img-text-one p {
-      margin-top: 1rem; }
-    .resident-evil-game .img-text-one img {
-      width: 18rem; }
-  .resident-evil-game .img-text-two {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .resident-evil-game .img-text-two p {
-      margin-top: 1rem; }
-    .resident-evil-game .img-text-two img {
-      width: 18rem; }
-  .resident-evil-game .img-text-three {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .resident-evil-game .img-text-three p {
-      margin-top: 1rem; }
-    .resident-evil-game .img-text-three img {
-      width: 18rem; }
-  .resident-evil-game .img-text-four {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .resident-evil-game .img-text-four p {
-      margin-top: 1rem; }
-    .resident-evil-game .img-text-four img {
-      width: 18rem; }
+  align-items: center;
+  justify-content: space-between;
+  width: 40rem;
+  margin-left: 10rem;
+  margin: 3rem auto; }
+  .carousel img {
+    width: 50rem;
+    justify-items: center;
+    border-radius: 2%; }
+
+.main-container-resident-evil-4 {
+  background-image: url("../images/resident evil 4 background.jpeg"); }
 
 .second-section {
   display: flex;
@@ -604,120 +357,28 @@ body {
       margin: 0;
       color: magenta; }
 
-.little-nightmares-game {
-  display: flex;
-  justify-content: center;
-  background-size: cover;
-  background-image: url("../images/little nightmares background.jpg");
-  height: 50rem; }
-  .little-nightmares-game .steam-link {
+.main-container-little-nightmares {
+  background-image: url("../images/little nightmares background.jpg"); }
+
+@media (max-width: 1024px) {
+  .godofwargame {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left: 4rem;
-    margin-top: 8rem; }
-    .little-nightmares-game .steam-link img {
-      width: 18rem;
-      border-radius: 80%;
-      box-shadow: 8px 15px 25px rgba(202, 40, 207, 0.6); }
-  .little-nightmares-game .youtube-video {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 2rem; }
-    .little-nightmares-game .youtube-video iframe {
-      margin-left: 5rem; }
+    flex-direction: column; }
+    .godofwargame .youtube-video, .godofwargame .steam-link {
+      margin-left: 15rem;
+      width: 33rem;
+      height: 15rem;
+      margin-top: 100rem; }
+      .godofwargame .youtube-video iframe, .godofwargame .steam-link iframe {
+        margin-top: 34rem;
+        width: 40rem;
+        height: 40rem; } }
 
 .grid-content {
-  position: relative;
-  display: grid;
-  height: 60vh;
-  width: 100vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 48%);
-  gap: 1rem;
-  margin-top: 2rem;
-  margin-right: 10rem; }
-  .grid-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 2%; }
-  .grid-content .img-one, .grid-content .img-two, .grid-content .img-three, .grid-content .img-four {
-    perspective: 1000px; }
-  .grid-content .img-text-one {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .grid-content .img-text-one p {
-      margin-top: 1rem; }
-    .grid-content .img-text-one img {
-      width: 18rem; }
-  .grid-content .img-text-two {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 20%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .grid-content .img-text-two p {
-      margin-top: 1rem; }
-    .grid-content .img-text-two img {
-      width: 18rem; }
-  .grid-content .img-text-three {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .grid-content .img-text-three p {
-      margin-top: 1rem; }
-    .grid-content .img-text-three img {
-      width: 18rem; }
-  .grid-content .img-text-four {
-    position: absolute;
-    text-align: center;
-    border-radius: 6px;
-    top: 70%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    pointer-events: none;
-    color: white;
-    padding: 10px;
-    text-shadow: 5px 5px 5px #000000;
-    font-size: 20px;
-    transition: 1.5s; }
-    .grid-content .img-text-four p {
-      margin-top: 1rem; }
-    .grid-content .img-text-four img {
-      width: 18rem; }
+  width: 10rem;
+  margin-bottom: 90rem;
+  margin-left: 1.6rem;
+  justify-content: center; }
 
 @media (max-width: 768px) {
   .nav-link {
@@ -749,111 +410,6 @@ body {
     background-image: cover; }
   .home-second-half-container .form-container {
     width: 19rem; }
-  .godofwargame, .hogwarts-legacy-game, .little-nightmares-game, .resident-evil-game {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 20%);
-    place-items: center;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .godofwargame .youtube-video, .hogwarts-legacy-game .youtube-video, .little-nightmares-game .youtube-video, .resident-evil-game .youtube-video {
-      flex-direction: column;
-      width: 30rem;
-      height: 14rem;
-      margin-top: 1rem;
-      align-items: center;
-      width: 50%; }
-      .godofwargame .youtube-video iframe, .hogwarts-legacy-game .youtube-video iframe, .little-nightmares-game .youtube-video iframe, .resident-evil-game .youtube-video iframe {
-        width: 20rem;
-        height: 12rem; }
-    .godofwargame .grid-content, .hogwarts-legacy-game .grid-content, .little-nightmares-game .grid-content, .resident-evil-game .grid-content {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(1, 20%);
-      gap: 3rem;
-      width: 15rem;
-      height: auto;
-      margin-left: 10rem;
-      margin-top: 28rem; }
-      .godofwargame .grid-content .img-text-one, .hogwarts-legacy-game .grid-content .img-text-one, .little-nightmares-game .grid-content .img-text-one, .resident-evil-game .grid-content .img-text-one {
-        position: absolute;
-        text-align: center;
-        border-radius: 6px;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        pointer-events: none;
-        color: white;
-        padding: 10px;
-        text-shadow: 5px 5px 5px #000000;
-        font-size: 20px;
-        transition: 1.5s; }
-        .godofwargame .grid-content .img-text-one p, .hogwarts-legacy-game .grid-content .img-text-one p, .little-nightmares-game .grid-content .img-text-one p, .resident-evil-game .grid-content .img-text-one p {
-          margin-top: 1rem; }
-        .godofwargame .grid-content .img-text-one img, .hogwarts-legacy-game .grid-content .img-text-one img, .little-nightmares-game .grid-content .img-text-one img, .resident-evil-game .grid-content .img-text-one img {
-          width: 18rem; }
-      .godofwargame .grid-content .img-text-two, .hogwarts-legacy-game .grid-content .img-text-two, .little-nightmares-game .grid-content .img-text-two, .resident-evil-game .grid-content .img-text-two {
-        position: absolute;
-        text-align: center;
-        border-radius: 6px;
-        top: 37%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        pointer-events: none;
-        color: white;
-        padding: 10px;
-        text-shadow: 5px 5px 5px #000000;
-        font-size: 20px;
-        transition: 1.5s; }
-        .godofwargame .grid-content .img-text-two p, .hogwarts-legacy-game .grid-content .img-text-two p, .little-nightmares-game .grid-content .img-text-two p, .resident-evil-game .grid-content .img-text-two p {
-          margin-top: 1rem; }
-        .godofwargame .grid-content .img-text-two img, .hogwarts-legacy-game .grid-content .img-text-two img, .little-nightmares-game .grid-content .img-text-two img, .resident-evil-game .grid-content .img-text-two img {
-          width: 18rem; }
-      .godofwargame .grid-content .img-text-three, .hogwarts-legacy-game .grid-content .img-text-three, .little-nightmares-game .grid-content .img-text-three, .resident-evil-game .grid-content .img-text-three {
-        position: absolute;
-        text-align: center;
-        border-radius: 6px;
-        top: 64%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        pointer-events: none;
-        color: white;
-        padding: 10px;
-        text-shadow: 5px 5px 5px #000000;
-        font-size: 20px;
-        transition: 1.5s; }
-        .godofwargame .grid-content .img-text-three p, .hogwarts-legacy-game .grid-content .img-text-three p, .little-nightmares-game .grid-content .img-text-three p, .resident-evil-game .grid-content .img-text-three p {
-          margin-top: 1rem; }
-        .godofwargame .grid-content .img-text-three img, .hogwarts-legacy-game .grid-content .img-text-three img, .little-nightmares-game .grid-content .img-text-three img, .resident-evil-game .grid-content .img-text-three img {
-          width: 18rem; }
-      .godofwargame .grid-content .img-text-four, .hogwarts-legacy-game .grid-content .img-text-four, .little-nightmares-game .grid-content .img-text-four, .resident-evil-game .grid-content .img-text-four {
-        position: absolute;
-        text-align: center;
-        border-radius: 6px;
-        top: 91%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        pointer-events: none;
-        color: white;
-        padding: 10px;
-        text-shadow: 5px 5px 5px #000000;
-        font-size: 20px;
-        transition: 1.5s; }
-        .godofwargame .grid-content .img-text-four p, .hogwarts-legacy-game .grid-content .img-text-four p, .little-nightmares-game .grid-content .img-text-four p, .resident-evil-game .grid-content .img-text-four p {
-          margin-top: 1rem; }
-        .godofwargame .grid-content .img-text-four img, .hogwarts-legacy-game .grid-content .img-text-four img, .little-nightmares-game .grid-content .img-text-four img, .resident-evil-game .grid-content .img-text-four img {
-          width: 18rem; }
-    .godofwargame .steam-link, .hogwarts-legacy-game .steam-link, .little-nightmares-game .steam-link, .resident-evil-game .steam-link {
-      position: absolute;
-      margin-top: 66rem;
-      margin-left: 5rem; }
-    .godofwargame .steam-link img, .hogwarts-legacy-game .steam-link img, .little-nightmares-game .steam-link img, .resident-evil-game .steam-link img {
-      width: 10rem; }
   .second-section {
     display: grid;
     place-items: center;
@@ -883,7 +439,45 @@ body {
         font-size: 100%;
         margin-top: 2rem; }
       .second-section .merchant-features iframe {
-        width: 20rem; } }
+        width: 20rem; }
+  .game-features {
+    height: 90rem;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .game-features .grid-features {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      margin: auto 3rem; }
+  .gameplay-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    background-position: center; }
+    .gameplay-section iframe {
+      width: 26rem;
+      height: 15rem; }
+    .gameplay-section h1 {
+      margin-top: 0; }
+  .soundtracks {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .soundtracks iframe {
+      width: 14rem;
+      height: 10rem; }
+  .guide-container {
+    height: 106rem;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .guide-container .hogwarts-guide {
+      flex-direction: column; }
+      .guide-container .hogwarts-guide img {
+        width: 80%; }
+  .carousel-container h1 {
+    text-shadow: 5px 5px 5px #000000; }
+  .carousel-container .carousel {
+    width: 95%; } }
 
 .header-godofwar, .header-hogwarts-legacy, .header-little-nightmares, .header-resident-evil {
   display: flex;
