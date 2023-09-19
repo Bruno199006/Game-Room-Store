@@ -7,7 +7,7 @@
     @include background;
     padding: 5rem;
     gap: 3rem;
-
+    
     .games-for-sale-title{
       margin-top: 5rem;
     }
@@ -29,6 +29,10 @@
     }
 }
 .home-second-half-container{
+  .animate__animated,.animate__bounce{
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+   }
     @include flex-positions;  
     @include vertical-direction;
     @include background;
@@ -51,7 +55,7 @@
     .form-box{
         @include flex-positions;
         margin-bottom: 1rem;
-        height: fit-content;
+        height: 21rem;
     }
     .contact-title{
         @extend %contact-title;
@@ -81,12 +85,14 @@
              background-image: url("../images/fondo\ violet\ wave.jpg");
              @include background;
              font-weight: bolder;
-             opacity: 0.8;
-             width: 10rem;
+             opacity: 1;
+             width: 12rem;
              height: 3rem;
-             color: $third-color;
+             color: $secondary-color;
+             text-shadow: $text-shadow;
              margin-top: 2rem;
              margin-bottom: 1rem;
+             font-family: "Aldrich",sans-serif;
         }
         #mensaje{
             height: 6rem;
@@ -123,7 +129,8 @@
   @include background;
   .grid-images-1{
     display: grid;
-    place-items: end;
+   place-items: end;
+
     img{
       object-fit: cover;
       width: 70%;
@@ -159,11 +166,12 @@ img{
   border-radius: 50%;
   width: 14rem;
   object-fit: cover;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   box-shadow: $box-shadow;
 
 }
 iframe{
+  margin-right: 1.5rem;
   border-radius: 2%;
   width: 89%;
   height: 100%;
@@ -365,7 +373,7 @@ p{
     width: 34rem;
   }
  h1{
-  margin: 0;
+  margin: 3rem auto;
   color: $primary-color;
  }
  
@@ -376,40 +384,159 @@ p{
  .main-container-little-nightmares{
   background-image: url("../images/little\ nightmares\ background.jpg");
  }
-////Tablet section///
-@media  (max-width: 1024px) {
-  .godofwargame{
-    display: flex;
-    flex-direction: column;
-  .youtube-video,.steam-link{
- margin-left: 15rem;
-   width: 33rem;
-   height: 15rem;
-   margin-top: 100rem;
-   iframe{
-    margin-top: 34rem;
-    width: 40rem;
-    height: 40rem;
-   }
-   }
-    
+ .ln-features-container{
+  background-image: url("../images/little\ nightmares\ wallpaper\ 2.jpg");
+  @include background;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  h1{
+    font-family: "aldrich",sans-serif;
+    color: $secondary-color;
+    text-shadow: $text-shadow;
   }
+
+  .boss-title{
+    position: absolute;
+    margin-top: 2rem;
+  }
+  .villains-description{
+    margin-top: 2rem;
+    flex-direction: column;
+    text-align: center;
+    width: 30rem;
+  }
+  .villains-start{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .villains-container{
+    margin-top: 15rem;
+    display: flex;
+    h1{
+      font-family: "Antonio",sans-serif;
+      color: $secondary-color;
+      text-shadow: $text-shadow;
+    }
+    img{
+      width: 15rem;
+      margin-right: 4rem;
+    }
+    iframe{
+      width: 70%;
+     margin-left: 2rem;
+     margin-bottom: 1rem;
+     border-radius: 4%;
+     
+    }
+    p{
+      color: $primary-color;
+      font-family:'Aldrich',sans-serif ;
+      font-size: 1.1rem;
+      text-shadow: $text-shadow;
+    }
   }
   
-  .grid-content{
-   width: 10rem;
-   margin-bottom: 90rem;
-   margin-left: 1.6rem;
-   justify-content: center;
+ }
+//// Pages Tablet section///
+@media  (max-width: 1050px) {
+  .main-container-gow,.main-container-hogwarts-legacy,.main-container-little-nightmares,.main-container-resident-evil-4{
+  .steam-yt{
+    a{
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      width: 150px;
+      height: auto;
+      align-items: center;
+    }
+    img{
+      margin-right: 4rem;
+      width: 80%;
+    }
+    iframe{
+      width: 20rem;
+    }
   }
+}
+////resident evil tablet features////
+.second-section{
+.merchant-features{
+  place-items: center;
+  width: 60rem;
+  .storage-system,.weapon-upgrade,.trade-system,.enhacement-system{
+  width: 100%;
+  img{
+  
+    width: 100%;
+  }
+  
+}
+}
+}
+.guide-container{
+  height: 30rem;
+}
 
+////Little nightmares tablet section////
+.ln-features-container{
+  @include background;
+  .villains-container{
+    iframe{
+      margin-right: 2rem;
+      height: 15rem;
+      margin-top: 2rem;
+    }
+  }
+}
 
+////God of war tablet section////
+ .game-features{
+  .grid-features{
+   img{
+    width: 12rem;
+   }
+  }
+ }
+}
 
 
         /////Mobile section////
         
 @media(max-width:768px){
 
+////Pages mobile section////
+  .main-container-gow,.main-container-hogwarts-legacy,.main-container-little-nightmares,.main-container-resident-evil-4{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  
+      .steam-yt{
+        a{
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+          width: 150px;
+          height: auto;
+          align-items: center;
+        }
+        img{
+          margin-right: 4rem;
+          width: 82%;
+        }
+        iframe{
+          width: 17rem;
+          height: 11rem;
+        }
+      }
+    
+
+    .grid-images-1,.grid-images-2{
+      place-items: center;
+      width: 70%;
+    }
+  }
     .nav-link {
      margin-left: 2rem;
      text-align: center;
@@ -427,6 +554,9 @@ p{
       }
     }
     .home-second-half-container {
+      .carousel{
+        width: 30rem;
+      }
      p{
         margin-top: 5rem;
      }
@@ -434,9 +564,8 @@ p{
     .button-container{
       gap: 3rem;
     }
-    .carousel{
-      width: 95%;
-    }
+    
+    
 
     .footer-content{
       justify-content: center;
@@ -468,7 +597,6 @@ p{
     display: grid;
     place-items: center;
     margin: 0 auto;
-    @include youtube-video-config-mobile;
     background-position: center;
     .merchant-features{
       grid-template-columns: 1fr;
@@ -493,18 +621,30 @@ p{
   }
 }
 
+  
   ////god of war features mobile///
     .game-features{
       height:90rem;
       background-repeat: no-repeat;
       background-size: cover;
+      place-items: center;
    .grid-features{
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      margin: auto 3rem;
-      
-
+      margin: auto ;
+      .leviathan-axe{
+        width: 18rem;
+      }
+      img{
+        width: 20%;
+      }
+      p{
+        
+        text-align: center;
+        width: 17rem;
+      }
     }
+    
   }
   .gameplay-section{
     display: flex;
@@ -515,8 +655,8 @@ p{
     
 
         iframe{
-            width: 26rem;
-            height: 15rem;
+            width: 100%;
+            height: 12rem;
     
         }
         h1{
@@ -526,18 +666,37 @@ p{
   
 
   /// little nightmares features mobile///
-  /// hogwarts legacy features mobile///
-  .soundtracks{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    iframe{
-      width: 14rem;
-      height: 10rem;
+  .ln-features-container{
+    display: flex;
+    @include background;
+    .villains-container{
+     .boss-title{
+      margin-top: 5rem;
+     }
+      margin-top: 7rem;
+      justify-content: center;
+      align-items: center;
+      p{
+        width: 20rem;
+      }
+      iframe{
+       height: 11rem;
+      }
+      .villains-description{
+        width: 20rem;
+      }
+      .villains-start{
+        width: 20rem;
+      }
+     flex-direction: column;
+      .the-janitor{
+        width: 14rem;
+      }
     }
   }
+  /// hogwarts legacy features mobile///
   .guide-container{
-    height: 106rem;
+    height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
   .hogwarts-guide{
@@ -548,6 +707,7 @@ p{
   }
 }
 .carousel-container{
+  height: 22rem;
   h1{
     text-shadow: $text-shadow;
   }
