@@ -460,7 +460,8 @@ body {
       width: 82%; }
     .main-container-gow .steam-yt iframe, .main-container-hogwarts-legacy .steam-yt iframe, .main-container-little-nightmares .steam-yt iframe, .main-container-resident-evil-4 .steam-yt iframe {
       width: 17rem;
-      height: 11rem; }
+      height: 11rem;
+      margin-left: 1rem; }
     .main-container-gow .grid-images-1, .main-container-gow .grid-images-2, .main-container-hogwarts-legacy .grid-images-1, .main-container-hogwarts-legacy .grid-images-2, .main-container-little-nightmares .grid-images-1, .main-container-little-nightmares .grid-images-2, .main-container-resident-evil-4 .grid-images-1, .main-container-resident-evil-4 .grid-images-2 {
       place-items: center;
       width: 70%; }
@@ -476,7 +477,7 @@ body {
       text-align: center;
       font-size: 1.7rem; }
   .home-second-half-container .carousel {
-    width: 30rem; }
+    width: 90%; }
   .home-second-half-container p {
     margin-top: 5rem; }
   .home-second-half-container .button-container {
